@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bibliotheque de prompt - AGENCE INDIGO</title>
+    <meta name="description" content="Bibliothèque de prompts classés par personne et par domaine. Filtrer, prévisualiser, copier et utiliser vos prompts en un clic. Agence INDIGO." />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://agence-indigo.github.io/Bibliotheque_prompt/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bibliotheque de prompt - AGENCE INDIGO" />
+    <meta property="og:description" content="Filtrez par personne ou domaine et copiez vos prompts instantanément." />
+    <meta property="og:image" content="assets/background_2.png" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bibliotheque de prompt - AGENCE INDIGO" />
+    <meta name="twitter:description" content="Bibliothèque de prompts organisée par personne et domaine." />
+    <meta name="twitter:image" content="assets/background_2.png" />
+    <meta name="theme-color" content="#0b0f14" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Logo" class="logo" />
+        <div class="titles">
+          <h1>Bibliotheque de prompt - AGENCE INDIGO</h1>
+          <p class="subtitle">Organisez, filtrez et utilisez vos prompts en un clic.</p>
+        </div>
+      </div>
+      <div class="actions">
+        <input id="searchInput" type="search" placeholder="Rechercher un prompt (titre, contenu)" aria-label="Rechercher" />
+        <select id="personFilter" aria-label="Filtrer par personne">
+          <option value="">Toutes les personnes</option>
+        </select>
+        <select id="domainFilter" aria-label="Filtrer par domaine">
+          <option value="">Tous les domaines</option>
+        </select>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="stats" class="stats"></section>
+      <section id="grid" class="grid" aria-live="polite"></section>
+      <div id="emptyState" class="empty hidden">Aucun résultat avec ces filtres.</div>
+    </main>
+
+    <dialog id="promptDialog" class="dialog">
+      <div class="dialog-header">
+        <h2 id="dialogTitle">Titre du prompt</h2>
+        <button id="closeDialog" class="icon-btn" aria-label="Fermer">✕</button>
+      </div>
+      <div class="dialog-meta" id="dialogMeta"></div>
+      <article id="dialogContent" class="dialog-content"></article>
+      <div class="dialog-actions center">
+        <button id="copyBtn" class="primary">Copier le prompt</button>
+        <a id="openChatGPTBtn" class="ghost" target="_blank" rel="noopener">Ouvrir ChatGPT</a>
+        <a id="openFileBtn" class="ghost" target="_blank" rel="noopener">Ouvrir le fichier</a>
+      </div>
+    </dialog>
+
+    <template id="cardTemplate">
+      <article class="card">
+        <h3 class="card-title one-line"></h3>
+        <div class="badge-row under-title">
+          <span class="badge person"></span>
+          <span class="badge domain"></span>
+        </div>
+        <p class="card-excerpt"></p>
+        <div class="card-actions">
+          <button class="mini ghost viewBtn">Voir</button>
+          <button class="mini copyBtn">Copier</button>
+        </div>
+      </article>
+    </template>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="cluf">Ce site et son contenu sont fournis en l’état, sans garantie. Usage interne AGENCE INDIGO et collaborateurs. Toute reproduction non autorisée est interdite.</p>
+        <a class="gh" href="https://github.com/Agence-Indigo/Bibliotheque_prompt" target="_blank" rel="noopener" aria-label="Dépôt GitHub">
+          <svg width="22" height="22" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.2 1.87.86 2.33.66.07-.52.28-.86.51-1.06-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82a7.5 7.5 0 0 1 2-.27 7.5 7.5 0 0 1 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.06-.01 1.91-.01 2.17 0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="assets/app.js" type="module"></script>
+    <noscript>Activez JavaScript pour utiliser la bibliothèque de prompts.</noscript>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Bibliotheque de prompt - AGENCE INDIGO",
+      "url": "https://agence-indigo.github.io/Bibliotheque_prompt/",
+      "description": "Bibliothèque de prompts classés par personne et domaine.",
+      "inLanguage": "fr-FR"
+    }
+    </script>
+  </body>
+  </html>

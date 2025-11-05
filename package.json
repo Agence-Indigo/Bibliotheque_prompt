@@ -1,0 +1,11 @@
+{
+  "name": "bibliotheque-prompt-indigo",
+  "private": true,
+  "scripts": {
+    "build:manifest": "node tools/generate-manifest.cjs",
+    "serve": "npx --yes http-server -c-1 -p 5173"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

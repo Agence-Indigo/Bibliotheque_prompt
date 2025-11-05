@@ -20,3 +20,38 @@ Structure du dépôt
 - `Bastien-Developpeur-Automatisation/` — prompts pour dev & automatisation
 - `Vincent-Direction-Strategie/` — prompts pour Direction et Strategie
 
+## Interface web (one‑page)
+
+Une interface web statique est fournie pour parcourir, filtrer et copier les prompts facilement.
+
+- Fichier d’entrée: `index.html`
+- Styles et scripts: `assets/styles.css`, `assets/app.js`
+- Manifest généré: `prompts.json`
+
+Fonctionnalités:
+- Filtrer par personne et domaine, recherche plein texte (titre + contenu)
+- Carte → aperçu + ouverture en modal (Markdown rendu)
+- Bouton pour copier le contenu + lien direct vers ChatGPT (ouvre une nouvelle page)
+- Lien pour ouvrir le fichier `.md` original
+
+### Générer / mettre à jour le manifest
+
+Le front charge `prompts.json`. Générez-le à partir du dossier `prompt/`:
+
+```
+node tools/generate-manifest.cjs
+```
+
+Cela crée/actualise `prompts.json` à la racine. À relancer à chaque ajout/modification de prompts.
+
+### Servir localement (recommandé)
+
+Pour éviter les restrictions `file://`, servez un petit serveur HTTP local, par exemple:
+
+```
+npx http-server -c-1 -p 5173
+```
+
+Puis ouvrez: http://localhost:5173/
+
+

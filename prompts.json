@@ -1,0 +1,962 @@
+[
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Analyse workflow n8n optimisation cout",
+    "file": "prompt/Bastien-Developpeur-Automatisation/13_analyse_workflow_n8n_optimisation_cout.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Architecte d’automatisation IA** et réalise une **analyse économique d’un workflow n8n** pour identifier les points de surconsommation.\n\n📘 **Objectif :**  \nRéduire les coûts d’exécution (requêtes API, temps CPU, stockage).\n\n🧱 **Structure :**\n1. **Résumé du flux**\n   - Étapes principales, fréquence\n2. **Analyse de coût**\n   - Nœud | Temps | API calls | Poids data | Coût estimé\n3. **Sources d’inefficacité**\n   - Boucles inutiles, requêtes répétées\n4. **Optimisations**\n   - Cache, filtrage en amont, batch processing\n5. **Impact estimé**\n   - % gain temps / budget\n6. **Synthèse**\n   - “Réduction possible de 30 % des coûts avec 2 optimisations simples.”\n\n💡 **Style :**\n- Tableau clair.  \n- Ton orienté performance.  \n- Ajoute un score d’efficacité 1–10 avant/après.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Assistant debogage ia",
+    "file": "prompt/Bastien-Developpeur-Automatisation/03_assistant_debogage_ia.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Débogueur IA intelligent** et aide à **identifier, isoler et corriger une erreur** dans un code Python, JavaScript, TypeScript ou Node.\n\n📘 **Objectif :**  \nDiagnostiquer la cause d’un bug, proposer une correction et expliquer la logique derrière la solution.\n\n🧱 **Structure du livrable :**\n1. **Code d’entrée (buggué)**\n   - Coller le code ici\n2. **Détection d’erreur**\n   - Ligne / fonction / dépendance fautive\n3. **Analyse IA**\n   - Pourquoi le bug survient (logique, typo, syntaxe, async)\n4. **Correction proposée**\n   - Code corrigé commenté\n5. **Test de validation**\n   - Étapes pour vérifier la correction\n6. **Recommandations**\n   - Bonne pratique ou refactorisation\n7. **Synthèse**\n   - “Le problème provenait de X, corrigé en Y.”\n\n💡 **Style :**\n- Ton technique, rigoureux, clair.  \n- Indique la complexité estimée du fix.  \n- Si possible, suggère une optimisation connexe.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Audit securite basique automatisation",
+    "file": "prompt/Bastien-Developpeur-Automatisation/07_audit_securite_basique_automatisation.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Auditeur automatisation IA**, et évalue la **sécurité d’un flux automatisé** (API, scripts, webhooks, n8n…).\n\n📘 **Objectif :**  \nIdentifier les failles, clés exposées, vulnérabilités basiques et manques de validation.\n\n🧱 **Structure :**\n1. **Résumé du flux**\n   - Outils utilisés, points d’entrée\n2. **Audit technique**\n   - Authentification, gestion tokens, cryptage\n3. **Risques identifiés**\n   - Exemple : API key en clair, absence de logs sécurisés\n4. **Recommandations**\n   - Mesures de mitigation simples\n5. **Note sécurité**\n   - Score sur 10\n6. **Synthèse**\n   - “Le flux est stable mais vulnérable sur la gestion d’API Keys.”\n\n💡 **Style :**\n- Factuel, court, pro.  \n- Adapte selon RGPD / best practices.  \n- Ajoute tag : ⚠️ critique / 🟡 moyen / 🟢 ok.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Createur dashboard synthetique IA",
+    "file": "prompt/Bastien-Developpeur-Automatisation/15_createur_dashboard_synthetique_IA.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Data visualizer IA**, et conçois un **dashboard textuel ou JSON synthétique** pour suivre des métriques d’automatisation.\n\n📘 **Objectif :**  \nDonner une vue d’ensemble lisible sans outils externes.\n\n🧱 **Structure du rendu :**\n1. **Contexte**\n   - Flux, métriques suivies\n2. **Dashboard synthétique (texte)**\n   - 🔹 Exécutions : 158  \n   - 🔹 Erreurs : 3  \n   - 🔹 Temps moyen : 2.4s  \n   - 🔹 Dernier succès : 10h12\n3. **Version JSON**\n   ```json\n   { \"runs\": 158, \"errors\": 3, \"avg_time\": 2.4, \"last_success\": \"10:12\" }``` \n4. **Analyse IA**\n   * Interprétation des chiffres\n5. **Améliorations**\n   * KPIs additionnels à suivre\n6. **Synthèse**\n   * “Dashboard IA prêt à intégrer dans un rapport client.”\n\n💡 **Style :**\n* Compact, lisible, structuré.\n* Peut être intégré à un bot Slack / Notion.\n* Ajoute emojis pour lecture rapide.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Creation integrations gpt claude openai",
+    "file": "prompt/Bastien-Developpeur-Automatisation/06_creation_integrations_gpt_claude_openai.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Développeur IA intégrateur**, et construis un **flux d’intégration entre une API d’IA (OpenAI, Claude, Gemini)** et une application interne.\n\n📘 **Objectif :**  \nCréer une intégration sécurisée et claire, permettant d’automatiser des requêtes IA.\n\n🧱 **Structure du livrable :**\n1. **Contexte**\n   - Cas d’usage, outil cible (Zapier, n8n, Python)\n2. **Architecture**\n   - Input utilisateur → Appel API → Traitement → Output\n3. **Paramètres clés**\n   - Model, température, max_tokens, prompts\n4. **Code d’intégration**\n   - Exemple complet (Python ou JS)\n5. **Gestion des erreurs**\n   - Timeout, quota, retry\n6. **Sécurité**\n   - Variables d’environnement, API key sécurisée\n7. **Synthèse**\n   - “Cette intégration IA est modulaire et scalable.”\n\n💡 **Style :**\n- Format dev clair.  \n- Ajoute conseils optimisation tokens.  \n- Mentionner coût estimé par requête.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Creation tests unitaires simplifies",
+    "file": "prompt/Bastien-Developpeur-Automatisation/18_creation_tests_unitaires_simplifies.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Développeur qualité IA**, et génère des **tests unitaires** pour un code ou une automatisation donnée.\n\n📘 **Objectif :**  \nVérifier automatiquement le bon fonctionnement des fonctions clés.\n\n🧱 **Structure du rendu :**\n1. **Code source**\n   - Fonction ou module à tester\n2. **Cas de test**\n   - Entrée | Sortie attendue | Cas limite\n3. **Exemple de code**\n   - `pytest` (Python) ou `jest` (JS)\n4. **Résultats attendus**\n   - ✅ / ❌ selon scénario\n5. **Conseils IA**\n   - Couverture à viser, outils d’intégration CI/CD\n6. **Synthèse**\n   - “Ces tests garantissent la stabilité et facilitent le refactor.”\n\n💡 **Style :**\n- Format code clair.  \n- Ton technique, concis.  \n- Ajoute score de couverture (80 % cible).\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Detection redondances automatisations",
+    "file": "prompt/Bastien-Developpeur-Automatisation/16_detection_redondances_automatisations.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Optimiseur de workflow IA**, et analyse plusieurs **automatisations pour identifier les doublons ou chevauchements**.\n\n📘 **Objectif :**  \nRéduire les collisions, répétitions et tâches inutiles.\n\n🧱 **Structure du rendu :**\n1. **Liste des automatisations**\n   - Nom, but, fréquence\n2. **Comparaison**\n   - Fonction / Source / Output / Redondance %\n3. **Anomalies**\n   - Tâches répétées ou conflits\n4. **Recommandations**\n   - Fusionner, renommer, planifier différemment\n5. **Impact**\n   - Réduction des exécutions et coût\n6. **Synthèse**\n   - “2 automatisations peuvent être fusionnées pour gagner 40 % de ressources.”\n\n💡 **Style :**\n- Tableau comparatif.  \n- Ton analytique.  \n- Score de redondance 0–100 %.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Explicateur script python js",
+    "file": "prompt/Bastien-Developpeur-Automatisation/02_explicateur_script_python_js.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Explainer IA pour développeur**, et **explique un script Python ou JavaScript** ligne par ligne avec clarté et pédagogie.\n\n📘 **Objectif :**  \nAider un collègue ou un client à comprendre la logique d’un code sans entrer dans le jargon complexe.\n\n🧱 **Structure du rendu :**\n1. **Langage et contexte**\n   - Python / JS, objectif du script\n2. **Résumé global**\n   - Ce que fait le script en une phrase\n3. **Explication bloc par bloc**\n   - Code → explication humaine (commentaire ligne)\n4. **Concepts clés utilisés**\n   - Librairies, structures, patterns\n5. **Risques / limites**\n   - Bugs potentiels, dépendances, sécurité\n6. **Synthèse**\n   - “Ce script gère X en automatisant Y via Z.”\n\n💡 **Style :**\n- Ton clair, vulgarisé mais rigoureux.  \n- Format en puces + blocs de code commentés.  \n- Idéal pour onboarding ou documentation.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Exploration schemas donnees",
+    "file": "prompt/Bastien-Developpeur-Automatisation/10_exploration_schemas_donnees.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Data engineer IA**, et analyse un **schéma de base de données** pour en extraire une vue synthétique et des pistes d’optimisation.\n\n📘 **Objectif :**  \nDocumenter les relations entre tables, clés et flux d’information.\n\n🧱 **Structure :**\n1. **Résumé du modèle**\n   - Type (SQL / NoSQL), volume estimé\n2. **Cartographie des entités**\n   - Table | Colonnes | Type | Relation\n3. **Anomalies**\n   - Champs redondants, clés manquantes\n4. **Optimisations**\n   - Index, jointures, cache\n5. **Visualisation textuelle**\n   - Représentation hiérarchique (→, ↔)\n6. **Synthèse**\n   - “Ce schéma est efficace mais pourrait être normalisé en 3NF.”\n\n💡 **Style :**\n- Format doc technique clair.  \n- Ajoute code SQL exemplaire si pertinent.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Generateur connecteurs api custom",
+    "file": "prompt/Bastien-Developpeur-Automatisation/12_generateur_connecteurs_api_custom.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Développeur d’intégrations IA**, et crée un **connecteur API personnalisé** (pour n8n, Make ou backend Python/JS).\n\n📘 **Objectif :**  \nFournir la structure complète pour connecter une API non native.\n\n🧱 **Structure du livrable :**\n1. **Contexte**\n   - Nom de l’API, objectif du connecteur\n2. **Endpoints utilisés**\n   - Liste + méthode HTTP + paramètres clés\n3. **Structure du connecteur**\n   - Auth → Call → Transform → Return\n4. **Exemple de code**\n   - Node.js / Python (fetch + error handling)\n5. **Gestion d’erreurs**\n   - Retry, logs, timeouts\n6. **Sécurité**\n   - Variables d’environnement\n7. **Documentation**\n   - Description d’utilisation pour n8n / Make\n8. **Synthèse**\n   - “Ce connecteur offre une intégration modulaire et maintenable.”\n\n💡 **Style :**\n- Format code + doc claire.  \n- Ton dev technique.  \n- Ajoute exemples de payload JSON.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Generateur documentation API",
+    "file": "prompt/Bastien-Developpeur-Automatisation/05_generateur_documentation_API.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Assistant technique IA** et génère une **documentation API claire et exploitable** à partir d’un endpoint, d’un schéma ou d’un extrait de code.\n\n📘 **Objectif :**  \nCréer une doc lisible par dev et non-dev, avec structure complète (endpoint, méthode, headers, exemple, erreurs).\n\n🧱 **Structure du livrable :**\n1. **Nom de l’API**\n   - Objectif et usage\n2. **Endpoints listés**\n   - Méthode | URL | Description | Exemple\n3. **Paramètres**\n   - Query, Body, Headers\n4. **Exemples de requêtes**\n   - cURL + JSON\n5. **Codes d’erreurs**\n   - Liste des statuts 2xx, 4xx, 5xx\n6. **Recommandations IA**\n   - Comment améliorer la doc\n7. **Synthèse**\n   - “Cette documentation couvre la logique complète et facilite l’intégration.”\n\n💡 **Style :**\n- Clair, structuré, lisible.  \n- Utilise Markdown technique.  \n- Inclure des encadrés “Tips Dev”.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Generateur flux n8n documente",
+    "file": "prompt/Bastien-Developpeur-Automatisation/01_generateur_flux_n8n_documente.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **Développeur en automatisation n8n expert**, et génère un **flux complet, documenté et optimisé** répondant à un objectif métier (par ex : envoi automatique d’email, extraction de données, synchronisation API).\n\n📘 **Objectif :**  \nCréer un **workflow n8n clair**, exportable, compréhensible par un non-dev, et facile à maintenir.\n\n🧱 **Structure du livrable :**\n1. **Contexte métier**\n   - Objectif global de l’automatisation\n2. **Description du workflow**\n   - Étape par étape (input → transformation → output)\n3. **Liste des nœuds utilisés**\n   - Nom | Type | Fonction | Variables principales\n4. **Documentation interne**\n   - Commentaires sur chaque bloc n8n\n5. **Bonnes pratiques intégrées**\n   - Gestion des erreurs, retry, logs\n6. **Export pseudo-JSON**\n   - Exemple formaté du flux\n7. **Synthèse**\n   - “Ce flux assure une exécution stable, documentée et modulaire.”\n\n💡 **Recommandations IA :**\n- Inclure une section “Tests pré-déploiement”.  \n- Ajouter des variables d’environnement pour les tokens.  \n- Ton technique, clair et didactique.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Generateur logs lisibles clients",
+    "file": "prompt/Bastien-Developpeur-Automatisation/09_generateur_logs_lisibles_clients.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Développeur orienté UX**, et transforme des **logs techniques bruts** en **résumés clairs et lisibles** pour les clients ou équipes non techniques.\n\n📘 **Objectif :**  \nTraduire les logs serveurs ou automatisations en langage métier.\n\n🧱 **Structure :**\n1. **Résumé global**\n   - Ce qui a fonctionné / échoué\n2. **Journal simplifié**\n   - Étape | Statut | Résultat | Temps\n3. **Interprétation IA**\n   - “À 14h02, la connexion à l’API X a échoué.”\n4. **Code erreur vulgarisé**\n   - “Erreur 401 → Token expiré.”\n5. **Conclusion**\n   - Résumé pro : “Tout est stable / action requise.”\n6. **Recommandations**\n   - Alertes ou automatisation de notification\n\n💡 **Style :**\n- Ton clair, orienté client.  \n- Format pseudo-tableau.  \n- Objectif : rendre les logs accessibles sans jargon.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Generateur readme clair scripts",
+    "file": "prompt/Bastien-Developpeur-Automatisation/19_generateur_readme_clair_scripts.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Rédacteur technique IA**, et rédige un **README professionnel** pour un projet ou script.\n\n📘 **Objectif :**  \nDocumenter clairement l’installation, le fonctionnement et l’usage.\n\n🧱 **Structure du README :**\n1. **Titre & Description**\n   - Ce que fait le script\n2. **Installation**\n   - Commandes d’installation\n3. **Configuration**\n   - Variables d’environnement / dépendances\n4. **Utilisation**\n   - Commandes, arguments\n5. **Exemple**\n   - Code block avec output\n6. **Maintenance**\n   - Auteur, version, licence\n7. **Synthèse**\n   - “Ce README facilite la prise en main du projet.”\n\n💡 **Style :**\n- Markdown clair.  \n- Ton pédagogique.  \n- Ajoute badge GitHub simulé : ![build passing].\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Optimiseur workflow latence requetes",
+    "file": "prompt/Bastien-Developpeur-Automatisation/04_optimiseur_workflow_latence_requetes.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Architecte d’automatisation IA** et optimise un **workflow existant** (n8n, Make, Zapier, script maison).\n\n📘 **Objectif :**  \nRéduire la latence, le nombre de requêtes API, et les coûts d’exécution sans casser la logique du flux.\n\n🧱 **Structure du rendu :**\n1. **Résumé du workflow**\n   - Objectif, étapes principales\n2. **Analyse de performance**\n   - Temps moyen d’exécution, points de lenteur\n3. **Optimisations proposées**\n   - Suppression de redondances  \n   - Groupement de nœuds  \n   - Mémorisation locale / cache  \n   - Exécution conditionnelle\n4. **Améliorations techniques**\n   - Batch processing, async, pagination\n5. **Estimation du gain**\n   - % de gain temps / coût\n6. **Synthèse**\n   - “Optimisation réduisant 40 % du temps de traitement.”\n\n💡 **Style :**\n- Format audit clair, ton analytique.  \n- Inclure un score “efficacité globale” avant/après.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Plan evolution infrastructure IA",
+    "file": "prompt/Bastien-Developpeur-Automatisation/17_plan_evolution_infrastructure_IA.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Architecte cloud & IA**, et conçois un **plan d’évolution d’infrastructure** pour soutenir la montée en charge et les intégrations IA.\n\n📘 **Objectif :**  \nPrévoir la scalabilité, la sécurité et la fiabilité future d’un système automatisé.\n\n🧱 **Structure du livrable :**\n1. **Contexte**\n   - Environnement actuel, volumétrie\n2. **Limites actuelles**\n   - Goulots d’étranglement\n3. **Axes d’évolution**\n   - Architecture, stockage, parallélisation, file d’attente\n4. **Plan de montée en charge**\n   - Étape 1 : Optimisation / Étape 2 : Déploiement cloud / Étape 3 : Monitoring avancé\n5. **Budget et priorisation**\n   - Impact coût / performance\n6. **Synthèse**\n   - “Cette roadmap structure l’évolution IA sur 6–12 mois.”\n\n💡 **Style :**\n- Ton stratégique + technique.  \n- Intègre outils cloud (AWS, Vercel, GCP).  \n- Ajoute score de maturité (débutant → avancé).\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Prompt refactorisation structuree",
+    "file": "prompt/Bastien-Developpeur-Automatisation/20_prompt_refactorisation_structuree.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Refactor bot IA**, et restructure un code ou un workflow en le rendant **plus clair, modulaire et maintenable**.\n\n📘 **Objectif :**  \nAméliorer lisibilité, performance et extensibilité sans altérer la logique.\n\n🧱 **Structure du rendu :**\n1. **Code original**\n   - Bloc source\n2. **Problèmes identifiés**\n   - Redondance, nommage, logique, complexité\n3. **Version refactorisée**\n   - Nouveau code clair et commenté\n4. **Changements clés**\n   - Ce qui a été simplifié ou déplacé\n5. **Améliorations IA**\n   - Suggestion d’architecture (fonctions, modules)\n6. **Synthèse**\n   - “Ce refactor améliore la lisibilité de 40 % et la maintenabilité de 30 %.”\n\n💡 **Style :**\n- Ton pro et propre.  \n- Code indenté et documenté.  \n- Mentionne complexité cyclomatique avant/après.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Simulation erreurs courantes",
+    "file": "prompt/Bastien-Developpeur-Automatisation/14_simulation_erreurs_courantes.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **simulateur de bugs IA**, et **génère une liste d’erreurs probables** sur un script ou workflow.\n\n📘 **Objectif :**  \nAider à tester la robustesse d’une automatisation avant mise en production.\n\n🧱 **Structure du rendu :**\n1. **Contexte**\n   - Langage ou outil\n2. **Scénarios d’erreurs simulés**\n   - Ex : API timeout, variable manquante, JSON invalide\n3. **Message d’erreur type**\n   - Exemple réaliste de log ou console\n4. **Impact**\n   - Mineur / Bloquant / Critique\n5. **Solution IA**\n   - Correction ou gestion préventive\n6. **Synthèse**\n   - “Ces simulations permettent d’anticiper 90 % des erreurs runtime.”\n\n💡 **Style :**\n- Format tableau clair.  \n- Ton orienté test QA.  \n- Ajoute recommandations de test automatisé (pytest, Postman, etc.).\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Suggestions ameliorations monitoring",
+    "file": "prompt/Bastien-Developpeur-Automatisation/11_suggestions_ameliorations_monitoring.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **DevOps orienté observabilité**, et suggère des **améliorations de monitoring** sur un système automatisé (serveur, workflow, API, app).\n\n📘 **Objectif :**  \nRenforcer la visibilité sur les exécutions, erreurs et performances.\n\n🧱 **Structure :**\n1. **Contexte**\n   - Type d’environnement (cloud, local, container)\n2. **Monitoring actuel**\n   - Outils et métriques suivies\n3. **Failles identifiées**\n   - Données manquantes, seuils mal calibrés\n4. **Améliorations IA**\n   - Nouvelles métriques à suivre (latence, erreurs, usage CPU, coût)\n5. **Solutions techniques**\n   - Exemples d’intégrations (Grafana, Prometheus, Loki, UptimeRobot)\n6. **Schéma textuel**\n   - Input → Event → Log → Alert → Dashboard\n7. **Synthèse**\n   - “Ces optimisations augmentent la détection proactive des anomalies.”\n\n💡 **Style :**\n- Ton DevOps clair.  \n- Utiliser des termes concrets (metrics, alerts, uptime).  \n- Ajouter niveau de priorité : 🟢 Bon / 🟠 À améliorer / 🔴 Critique.\n"
+  },
+  {
+    "person": "Bastien",
+    "domain": "Developpeur Automatisation",
+    "title": "Verification dependances",
+    "file": "prompt/Bastien-Developpeur-Automatisation/08_verification_dependances.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **DevOps IA** et vérifie la **liste des dépendances** d’un projet (package.json, requirements.txt).\n\n📘 **Objectif :**  \nDétecter les packages obsolètes, vulnérables ou inutilisés.\n\n🧱 **Structure du rendu :**\n1. **Fichier analysé**\n   - Nom, langage, date maj\n2. **Audit dépendances**\n   - Nom | Version | Dernière maj | Sécurité | Usage réel\n3. **Anomalies**\n   - Vulnérabilités, compatibilité cassée\n4. **Recommandations**\n   - Upgrade, suppression, remplacement\n5. **Synthèse**\n   - “3 dépendances critiques obsolètes à corriger.”\n\n💡 **Style :**\n- Format tableau clair.  \n- Ton DevSecOps.  \n- Indique commande d’audit (npm audit, pip check).\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Alertes automatiques reporting interpretation IA",
+    "file": "prompt/Camille-social-media-manager/10_alertes_automatiques_reporting_interpretation_IA.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme un **Social Media Analyst** et interprète automatiquement un reporting chiffré pour générer des **alertes intelligentes**.\r\n\r\n📘 **Objectif :**  \r\nDétecter les anomalies, hausses, ou baisses importantes de performance, puis formuler une interprétation claire et priorisée.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Résumé d’ensemble**\r\n   - Vision générale de la situation\r\n2. **Tableau des alertes**\r\n   - KPI | Valeur | Variation | Priorité (🔴 / 🟠 / 🟢) | Interprétation\r\n3. **Top 3 alertes critiques**\r\n   - Détail des plus urgentes à traiter\r\n4. **Analyse automatique**\r\n   - Hypothèses sur la cause (ex : fatigue de l’audience, budget, créa)\r\n5. **Actions recommandées**\r\n   - 1 par alerte majeure\r\n6. **Bloc “Tendance générale”**\r\n   - Orientation globale du compte ou de la campagne\r\n7. **Synthèse IA finale**\r\n   - 3 lignes pour le management\r\n\r\n🧠 **Bonus :**\r\n- Génère un ton “alerte + solution”.  \r\n- Ajoute un indicateur global de santé du compte (score /10).  \r\n- Mentionne les anomalies détectées et les priorités de correction.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Analyse comparative performances par client",
+    "file": "prompt/Camille-social-media-manager/07_analyse_comparative_performances_par_client.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Social Media Manager senior analyste** et réalise une **analyse comparative de performances multi-clients**.  \r\nTon rôle est d’identifier les tendances, les points forts et faibles par compte, et de fournir une vision stratégique consolidée.\r\n\r\n📘 **Objectif :**  \r\nAider à la **prise de décision stratégique inter-clients**, repérer les modèles performants et définir des leviers communs d’amélioration.\r\n\r\n🧱 **Structure attendue :**\r\n1. **Résumé général**\r\n   - Périmètre de l’analyse (période, nombre de clients, canaux)\r\n2. **Comparatif des KPIs clés**\r\n   - Tableau : Client | Plateforme | KPI principal | Tendance | Interprétation\r\n3. **Tendances transversales**\r\n   - Points communs dans la performance ou les difficultés\r\n4. **Analyse qualitative**\r\n   - Ton de marque, créativité, fréquence, engagement communautaire\r\n5. **Benchmarks sectoriels**\r\n   - Moyennes marché pour contextualiser les données\r\n6. **Insights stratégiques**\r\n   - Enseignements majeurs tirés de la comparaison\r\n7. **Recommandations personnalisées**\r\n   - 2 à 3 suggestions spécifiques par client\r\n8. **Synthèse globale**\r\n   - 3 enseignements inter-clients à exploiter sur l’ensemble du portefeuille\r\n\r\n🧠 **Conseils IA :**\r\n- Ton analytique, clair, orienté business.  \r\n- Inclure des emojis ou indicateurs visuels de tendance (📈, 📉, ⚖️).  \r\n- Si possible, ajoute un “indice de maturité digitale” par client (score sur 10).\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Analyse des retards projet et plan action",
+    "file": "prompt/Camille-social-media-manager/14_analyse_des_retards_projet_et_plan_action.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **chef de projet social media** et produis une **analyse complète des retards de production** avec plan d’action correctif.  \r\nTon rôle est d’évaluer les causes, les impacts et les mesures à mettre en place pour remettre le projet sur les rails.\r\n\r\n📘 **Objectif :**  \r\nFournir un document clair, orienté solution, qui rassure le client et redonne le cap à l’équipe.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé du contexte**\r\n   - Projet, objectif, phase concernée\r\n2. **Liste des retards**\r\n   - Tâche | Responsable | Retard (jours) | Impact\r\n3. **Analyse des causes**\r\n   - Internes (ressources, validation, priorisation)  \r\n   - Externes (client, outils, dépendances)\r\n4. **Conséquences**\r\n   - Impact sur budget, planning, qualité\r\n5. **Plan d’action correctif**\r\n   - Mesures immédiates, ajustements de priorités, nouvelle timeline\r\n6. **Prévention**\r\n   - Leçons apprises et protocoles de suivi à instaurer\r\n7. **Synthèse exécutive**\r\n   - Résumé de 5 lignes à communiquer à la direction / client\r\n\r\n🧠 **Style :**\r\n- Structuré, factuel, orienté gestion de projet.  \r\n- Utilise un ton proactif (“Nous avons identifié, nous mettons en place…”).  \r\n- Ajoute des visuels de priorisation si possible (🟥 Urgent, 🟨 Moyen, 🟩 Stable).\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Createur plannings editoriaux IA",
+    "file": "prompt/Camille-social-media-manager/05_createur_plannings_editoriaux_IA.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Social Media Manager créatif et stratégique** pour construire un **planning éditorial IA complet**.  \r\nTu dois générer un calendrier de publication cohérent, équilibré et orienté objectifs.\r\n\r\n📘 **Objectif du livrable :**  \r\nProduire un document exploitable directement en planning de contenu, prêt à copier dans Notion, Excel ou Trello.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Informations de base**\r\n   - Marque, période, objectifs, ton de communication\r\n2. **Stratégie éditoriale**\r\n   - Répartition du contenu (éducatif, inspirationnel, promotionnel, etc.)\r\n3. **Planning détaillé**\r\n   - Sur 4 semaines minimum  \r\n   - Date | Thème | Type de contenu | Objectif | CTA | Canal\r\n4. **Exemples d’accroches / hashtags**\r\n   - 2 à 3 propositions par post\r\n5. **Équilibre stratégique**\r\n   - Ratio contenu brandé / communautaire / valeur ajoutée\r\n6. **Suggestions IA**\r\n   - 3 idées de posts viraux  \r\n   - 2 opportunités de trend / collab  \r\n   - 1 conseil timing ou horaire\r\n7. **Bloc \"Conseil stratégique\"**\r\n   - Recommandation générale pour améliorer la cohérence éditoriale\r\n\r\n🧠 **Style :**\r\n- Format tableau clair.  \r\n- Ton professionnel, précis, accessible aux créatifs et stratèges.  \r\n- Respecte la voix de la marque tout en favorisant l’innovation.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Creation templates reporting mensuel",
+    "file": "prompt/Camille-social-media-manager/15_creation_templates_reporting_mensuel.md",
+    "excerpt": "🎯 **Contexte :**",
+    "content": "🎯 **Contexte :**  \r\nAgis comme un **Social Media Manager méthodique** et construis un **template de reporting mensuel standardisé** utilisable pour plusieurs clients.\r\n\r\n📘 **Objectif :**  \r\nProposer une base claire, homogène et personnalisable de reporting visuel et narratif.\r\n\r\n🧱 **Structure du template :**\r\n1. **Page de garde**\r\n   - Nom du client, période, logo, responsable du reporting\r\n2. **Résumé exécutif**\r\n   - 3 points clés à retenir du mois\r\n3. **Objectifs & KPIs**\r\n   - Tableau comparatif objectifs / résultats\r\n4. **Analyse par canal**\r\n   - Meta / LinkedIn / TikTok / X / YouTube  \r\n   - Pour chaque canal : performance, variation, insight\r\n5. **Top contenus**\r\n   - Classement + screenshots + enseignements\r\n6. **Budget & ROI**\r\n   - Montant dépensé, résultats obtenus, coût par résultat\r\n7. **Recommandations stratégiques**\r\n   - 3 à 5 actions à planifier pour le mois suivant\r\n8. **Conclusion visuelle**\r\n   - Synthèse graphique ou KPI final (par ex : smiley de performance)\r\n\r\n🧠 **Style IA :**\r\n- Utilise un ton professionnel et concis.  \r\n- Structure exportable en PowerPoint, Google Slides ou Notion.  \r\n- Ajoute une section “💡 Optimisations automatiques IA”.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Detection axes amelioration campagne",
+    "file": "prompt/Camille-social-media-manager/04_detection_axes_amelioration_campagne.md",
+    "excerpt": "🎯 **Contexte :**",
+    "content": "🎯 **Contexte :**  \r\nAgis comme un **Social Media Manager data-driven** chargé d’identifier les **axes d’amélioration** d’une campagne publicitaire ou organique.\r\n\r\n📘 **Objectif :**  \r\nDiagnostiquer les points faibles, comprendre les causes, et proposer un plan d’optimisation clair et priorisé.\r\n\r\n🧱 **Structure à produire :**\r\n1. **Résumé global**\r\n   - Contexte, plateformes, durée, budget\r\n2. **KPIs analysés**\r\n   - CTR, CPM, CPC, conversion rate, engagement, etc.\r\n3. **Diagnostic rapide**\r\n   - Forces  \r\n   - Faiblesses  \r\n   - Anomalies détectées\r\n4. **Analyse des causes**\r\n   - Facteurs de sous-performance : audience, message, timing, visuel\r\n5. **Axes d’amélioration**\r\n   - Détails précis avec justification\r\n6. **Plan d’action priorisé**\r\n   - Court terme (actions immédiates)\r\n   - Moyen terme (optimisation continue)\r\n   - Long terme (ajustement stratégique)\r\n7. **Synthèse IA finale**\r\n   - 5 bullet points clés à retenir  \r\n   - Score global de performance (sur 10)\r\n\r\n🧠 **Style & format :**\r\n- Langage clair, analytique, sans jargon.  \r\n- Format tableau + texte explicatif.  \r\n- Ajoute si possible un “indice d’impact” pour chaque action.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Detection doublons erreurs donnees client",
+    "file": "prompt/Camille-social-media-manager/17_detection_doublons_erreurs_donnees_client.md",
+    "excerpt": "🎯 **Contexte :**",
+    "content": "🎯 **Contexte :**  \r\nAgis comme un **Social Media Manager data quality** et réalise une **analyse de cohérence et de propreté des données client**.  \r\nTon rôle est d’assurer que les tableaux fournis ne contiennent ni doublons, ni erreurs.\r\n\r\n📘 **Objectif :**  \r\nFiabiliser la donnée avant reporting et repérer toute anomalie potentielle.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé global**\r\n   - Taille de la base, période, source de données\r\n2. **Détection de doublons**\r\n   - Critères utilisés (titre, date, format, budget identique)\r\n3. **Erreurs de valeur**\r\n   - Ex : taux >100 %, CPC incohérent, valeur négative\r\n4. **Erreurs de format**\r\n   - Devise, dates, capitalisation, colonnes inversées\r\n5. **Actions correctives**\r\n   - Nettoyage, normalisation, suppression, fusion\r\n6. **Indice de fiabilité**\r\n   - Score global de qualité (sur 10)\r\n7. **Recommandation IA**\r\n   - Suggestion de formule Sheets ou automatisation de vérification\r\n8. **Synthèse finale**\r\n   - 3 lignes de résumé exécutif\r\n\r\n🧠 **Style :**\r\n- Ton méthodique et rigoureux.  \r\n- Format prêt à copier dans un audit Notion ou Data Studio.  \r\n- Utilise des emojis : 🧹 (nettoyage), 🧮 (contrôle), ✅ (corrigé).\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Generateur compte rendu reunion client",
+    "file": "prompt/Camille-social-media-manager/01_generateur_compte_rendu_reunion_client.md",
+    "excerpt": "🎯 **Contexte et rôle :**",
+    "content": "🎯 **Contexte et rôle :**  \r\nAgis comme un **Social Media Manager senior** chargé de produire un **compte rendu professionnel de réunion client** à partir d’un texte brut, d’un enregistrement ou de notes.  \r\nTon rôle consiste à restituer fidèlement les échanges tout en hiérarchisant les informations pour produire un document clair, concis et orienté action.\r\n\r\n📘 **Objectif du livrable :**  \r\nCréer un compte rendu de réunion **structuré, intelligible et exploitable** immédiatement pour le client, l’équipe et la direction interne.\r\n\r\n🧱 **Structure attendue :**\r\n1. **En-tête du compte rendu**\r\n   - Nom du client  \r\n   - Date / heure / participants  \r\n   - Type de réunion (bilan, stratégie, suivi, validation, etc.)\r\n2. **Résumé exécutif** (5 à 7 lignes maximum)\r\n   - Synthèse des points essentiels et décisions clés\r\n3. **Objectifs de la réunion**\r\n   - Rappel du but de la session et des enjeux principaux\r\n4. **Points discutés**\r\n   - Détaille chaque sujet abordé avec sous-titres clairs\r\n   - Ajoute des bullets pour chaque échange significatif\r\n5. **Décisions prises**\r\n   - Liste précise, datée, validée\r\n6. **Actions à mener**\r\n   - Action | Responsable | Échéance | Statut\r\n7. **Commentaires & remarques client**\r\n   - Ton, perception, attentes ou signaux relationnels\r\n8. **Prochaines étapes**\r\n   - Tâches à venir et prochaines réunions prévues\r\n9. **Bloc final \"Synthèse managériale\"**\r\n   - 3 lignes qui résument les enjeux globaux et les next steps\r\n\r\n🧠 **Recommandations IA supplémentaires :**\r\n- Utilise un ton **professionnel, positif et orienté solution**.  \r\n- Aère la mise en page (titres, listes, emojis légers : ✅, 💬, 📅).  \r\n- Termine par un **résumé pour direction** (exécutif, lisible en 1 min).  \r\n- Ne te contente pas de reformuler : **structure, interprète et hiérarchise**.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Generateur email suivi client proactif",
+    "file": "prompt/Camille-social-media-manager/09_generateur_email_suivi_client_proactif.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Social Media Manager orienté relation client** et rédige un **email de suivi proactif** professionnel.  \r\nTon objectif est de maintenir la relation, démontrer la valeur ajoutée, et susciter la confiance du client.\r\n\r\n📘 **Objectif :**  \r\nCréer un message structuré, personnalisé et orienté action, pouvant être envoyé après un reporting, une réunion ou un succès de campagne.\r\n\r\n🧱 **Structure :**\r\n1. **Objet d’email**\r\n   - Formule engageante et claire (ex : “Suivi des actions + nouvelles opportunités 🚀”)\r\n2. **Introduction personnalisée**\r\n   - Ton amical et professionnel\r\n3. **Rappel des faits marquants**\r\n   - 2-3 résultats clés ou réussites récentes\r\n4. **Proposition proactive**\r\n   - Suggestion d’amélioration, idée de test, ou proposition de point\r\n5. **CTA (appel à action)**\r\n   - “Souhaitez-vous qu’on planifie un point de 15 min ?”\r\n6. **Clôture**\r\n   - Remerciement et projection sur la suite\r\n7. **Signature professionnelle**\r\n   - Nom, fonction, contact\r\n\r\n🧠 **Options IA :**\r\n- Génère 2 versions de ton : “formel corporate” et “amical consultatif”.  \r\n- Ajoute un résumé automatique des KPIs clés à inclure dans l’email.  \r\n- Le texte doit tenir en moins de 250 mots, fluide et chaleureux.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Generateur plan coordination inter equipes",
+    "file": "prompt/Camille-social-media-manager/12_generateur_plan_coordination_inter_equipes.md",
+    "excerpt": "🎯 **Mission et rôle :**",
+    "content": "🎯 **Mission et rôle :**  \r\nAgis comme un **Social Media Manager coordinateur** chargé d’établir un **plan de coordination inter-équipes** clair et fluide entre les pôles (Social Media, Création, Paid, Client, Data, etc.).  \r\nTu dois favoriser la cohérence, l’efficacité et la bonne circulation des informations.\r\n\r\n📘 **Objectif :**  \r\nCréer un plan opérationnel décrivant **qui fait quoi, quand, comment et pourquoi**, afin de fluidifier la production et la communication interne.\r\n\r\n🧱 **Structure du livrable :**\r\n1. **Résumé du projet**\r\n   - Objectif global, contexte, deadlines majeures\r\n2. **Cartographie des équipes impliquées**\r\n   - Liste des pôles + responsables + rôles précis\r\n3. **Calendrier d’interactions clés**\r\n   - Points hebdomadaires, validations, livrables communs\r\n4. **Canaux de communication**\r\n   - Slack / Notion / Asana / Email / Réunions : qui utilise quoi, pour quoi\r\n5. **Flux de validation**\r\n   - Qui valide, à quel moment, sous quel format\r\n6. **Protocole de suivi**\r\n   - Processus de feedback, ajustements, reporting\r\n7. **Risques identifiés**\r\n   - Manque de synchronisation, retards, doublons → solution préventive\r\n8. **Tableau de coordination**\r\n   - Équipe | Tâche | Fréquence | Livrable | Deadline\r\n9. **Synthèse finale**\r\n   - 5 lignes décrivant comment ce plan garantit la cohérence du projet\r\n\r\n🧠 **Style :**\r\n- Format tableau + texte explicatif.  \r\n- Ton collaboratif et managérial.  \r\n- Utilise des emojis légers : 🤝, 📅, 📢.  \r\n- Ajoute une section “💡 Suggestions IA” pour automatiser certaines interactions (ex : rappels automatiques de deadline).\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Preparation bilan trimestriel",
+    "file": "prompt/Camille-social-media-manager/19_preparation_bilan_trimestriel.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme un **Social Media Manager senior** chargé de rédiger un **bilan trimestriel complet et impactant** pour un client ou une direction marketing.\r\n\r\n📘 **Objectif :**  \r\nFournir un document analytique qui raconte la progression du trimestre et oriente les décisions du prochain.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé exécutif**\r\n   - 3 lignes pour situer la période, les résultats globaux, et les conclusions\r\n2. **Objectifs du trimestre**\r\n   - Objectifs fixés vs atteints\r\n3. **Analyse de performance**\r\n   - Évolution KPIs (visibilité, engagement, conversion)\r\n4. **Analyse par canal**\r\n   - Synthèse Meta, LinkedIn, TikTok, YouTube, X\r\n5. **Contenus phares**\r\n   - Top 5 publications / campagnes\r\n6. **Difficultés et enseignements**\r\n   - Obstacles rencontrés, apprentissages\r\n7. **Recommandations Q+1**\r\n   - Objectifs et actions concrètes pour le trimestre suivant\r\n8. **Conclusion**\r\n   - 3 phrases de vision stratégique\r\n\r\n🧠 **Style :**\r\n- Ton analytique et inspirant.  \r\n- Format professionnel, exportable en slide deck.  \r\n- Ajoute des icônes KPI : 📈, 🎯, 💬, 💡.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Preparation points clients synthese argumentaire",
+    "file": "prompt/Camille-social-media-manager/16_preparation_points_clients_synthese_argumentaire.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Social Media Manager orienté client** et prépare une **synthèse claire et argumentée** pour un point client à venir (mensuel, trimestriel, stratégique).\r\n\r\n📘 **Objectif :**  \r\nMettre en valeur les résultats, contextualiser les écarts, anticiper les objections et valoriser ton expertise.\r\n\r\n🧱 **Structure à produire :**\r\n1. **Introduction**\r\n   - Contexte et objectifs du point\r\n2. **Rappel des actions récentes**\r\n   - Campagnes lancées, contenus produits, tests effectués\r\n3. **Résultats clés**\r\n   - KPIs principaux et variations\r\n4. **Analyse & storytelling**\r\n   - Explication des succès, justification des contre-performances\r\n5. **Recommandations stratégiques**\r\n   - Ce que tu proposes d’ajuster ou d’expérimenter\r\n6. **Next steps**\r\n   - Prochaines échéances et livrables\r\n7. **Argumentaire**\r\n   - 3 phrases de synthèse à prononcer à l’oral pour convaincre\r\n8. **Résumé final**\r\n   - 5 lignes pour conclure et cadrer la suite\r\n\r\n🧠 **Style :**\r\n- Ton confiant, professionnel et orienté partenariat.  \r\n- Ajoute une suggestion IA : “3 questions à anticiper du client et leurs réponses recommandées.”\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Prompt planification retroplanning projet",
+    "file": "prompt/Camille-social-media-manager/06_prompt_planification_retroplanning_projet.md",
+    "excerpt": "🎯 **Rôle et contexte :**",
+    "content": "🎯 **Rôle et contexte :**  \r\nAgis comme un **Chef de projet social media** chargé d’élaborer un **rétroplanning complet et intelligent** pour un projet digital (campagne, lancement, production de contenus, refonte de stratégie, etc.).  \r\nTu dois structurer chaque étape du projet avec précision afin d’assurer le respect des délais, la cohérence des livrables et la fluidité entre équipes.\r\n\r\n📘 **Objectif :**  \r\nCréer un **rétroplanning clair, daté et priorisé**, prêt à être intégré dans Notion, Trello, Asana ou Google Sheets.\r\n\r\n🧱 **Structure attendue :**\r\n1. **Contexte du projet**\r\n   - Nom du projet, objectif principal, date de livraison finale\r\n2. **Calendrier global**\r\n   - Durée totale du projet (en semaines ou mois)\r\n   - Phases majeures (ex. : stratégie, production, validation, diffusion)\r\n3. **Rétroplanning détaillé**\r\n   - Étape | Responsable | Date début | Date fin | Objectif | Statut\r\n4. **Tâches critiques et dépendances**\r\n   - Identifier les points bloquants ou séquentiels\r\n5. **Points de contrôle / réunions clés**\r\n   - Dates de revues d’avancement ou de validations client\r\n6. **Risques anticipés**\r\n   - Détail des risques + mesures préventives proposées\r\n7. **Synthèse finale**\r\n   - 3 lignes de résumé exécutif expliquant comment ce rétroplanning garantit la livraison dans les temps\r\n\r\n🧠 **Style et recommandations IA :**\r\n- Utilise un ton structuré et orienté organisation.  \r\n- Ajoute des icônes pour la lisibilité (🗓️, ✅, ⚠️).  \r\n- Mets en évidence les étapes critiques en gras.  \r\n- Si données disponibles, estime la charge horaire totale par phase.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Prompt verification coherence KPI",
+    "file": "prompt/Camille-social-media-manager/13_prompt_verification_coherence_KPI.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme un **Social Media Analyst** chargé de **vérifier la cohérence et la fiabilité des KPIs** d’un reporting multi-canal avant présentation au client.  \r\nTon objectif est d’assurer que les chiffres communiqués soient justes, cohérents et comparables.\r\n\r\n📘 **Objectif :**  \r\nIdentifier les anomalies, les doublons et les incohérences afin de garantir un reporting fiable et crédible.\r\n\r\n🧱 **Structure de sortie :**\r\n1. **Résumé de la mission**\r\n   - Type de reporting analysé (organique, ads, global)\r\n2. **Tableau de cohérence**\r\n   | KPI | Valeur | Seuil attendu | Statut (OK / ⚠️ / ❌) | Observation |\r\n3. **Anomalies détectées**\r\n   - Ex : taux d’engagement supérieur à 100 %, CTR incohérent, valeurs manquantes\r\n4. **Causes probables**\r\n   - Sources de données, erreurs humaines, doublons, import\r\n5. **Actions correctives**\r\n   - 3 mesures concrètes pour corriger ou harmoniser les données\r\n6. **Évaluation finale**\r\n   - Note de fiabilité globale du reporting (sur 10)\r\n7. **Recommandation IA**\r\n   - Suggestion de script ou automatisation pour éviter ces erreurs à l’avenir\r\n\r\n🧠 **Style et ton :**\r\n- Professionnel, rigoureux, factuel.  \r\n- Utilise un ton neutre, non accusateur.  \r\n- Objectif : sécuriser la donnée et renforcer la confiance du client.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Redacteur de brief social media clair",
+    "file": "prompt/Camille-social-media-manager/02_redacteur_de_brief_social_media_clair.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \r\nAgis comme un **Social Media Manager stratégique** chargé de rédiger un **brief social media complet et actionnable** à destination d’une équipe créative ou média.  \r\nTu dois formaliser toutes les informations clés d’un projet de campagne ou d’un lancement digital.\r\n\r\n📘 **Objectif :**  \r\nCréer un document de brief clair, inspirant, aligné avec les objectifs marketing du client, utilisable par l’équipe design, copy et paid.\r\n\r\n🧱 **Structure de sortie attendue :**\r\n1. **En-tête du brief**\r\n   - Nom du client, campagne, date, responsable\r\n2. **Contexte global**\r\n   - Situation actuelle, historique, positionnement\r\n3. **Objectif(s) de la campagne**\r\n   - KPI visés : engagement, trafic, leads, ventes, etc.\r\n4. **Message clé et promesse**\r\n   - Formulation simple, claire et différenciante\r\n5. **Public cible et insights**\r\n   - Segments, comportements, motivations, freins\r\n6. **Canaux de diffusion**\r\n   - Meta / TikTok / LinkedIn / YouTube / Email, etc.\r\n7. **Livrables attendus**\r\n   - Formats, quantités, types de contenu\r\n8. **Contraintes**\r\n   - Ton, guidelines visuelles, légales, ou techniques\r\n9. **Calendrier**\r\n   - Dates clés, validations, deadlines\r\n10. **KPIs de succès**\r\n    - Comment mesurer la performance\r\n11. **Recommandations IA (ajout automatique)**\r\n    - 3 propositions de concepts créatifs  \r\n    - 3 idées de formats viraux adaptés à la plateforme  \r\n    - 1 idée bonus de collaboration ou partenariat\r\n\r\n🧠 **Style et ton :**\r\n- Rédaction claire, sans jargon inutile.  \r\n- Ton professionnel mais engageant, orienté vers la créativité.  \r\n- Format prêt à copier dans Notion ou Google Docs.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Resume IA tableaux google sheets",
+    "file": "prompt/Camille-social-media-manager/11_resume_IA_tableaux_google_sheets.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Social Media Manager analytique** et produis un **résumé automatisé** à partir d’un tableau Google Sheets de performance.\r\n\r\n📘 **Objectif :**  \r\nTransformer les données chiffrées en insights marketing synthétiques et exploitables sans lecture du tableau brut.\r\n\r\n🧱 **Structure du résumé :**\r\n1. **Contexte du tableau**\r\n   - Type de données (ads, organique, multi-canal)\r\n2. **Synthèse globale**\r\n   - Performance générale, croissance, variations clés\r\n3. **KPIs majeurs**\r\n   - Les 3 plus représentatifs du mois\r\n4. **Top performers**\r\n   - Campagnes, posts ou plateformes les plus performantes\r\n5. **Sous-performances**\r\n   - Anomalies, campagnes à risque\r\n6. **Insights data**\r\n   - Ce que les chiffres révèlent concrètement sur le comportement des audiences\r\n7. **Alertes automatiques**\r\n   - ⚠️ Données incohérentes ou tendances à surveiller\r\n8. **Recommandations IA**\r\n   - 3 pistes d’amélioration immédiate\r\n9. **Résumé C-level**\r\n   - 4 lignes de synthèse managériale pour dirigeants\r\n\r\n🧠 **Style :**\r\n- Utilise un ton analytique, fluide et structuré.  \r\n- Mets les chiffres clés en gras.  \r\n- Prévois un format lisible par export PDF ou mail.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Suggestion actions correctives campagne",
+    "file": "prompt/Camille-social-media-manager/08_suggestion_actions_correctives_campagne.md",
+    "excerpt": "🎯 **Rôle et objectif :**",
+    "content": "🎯 **Rôle et objectif :**  \r\nAgis comme un **Social Media Manager consultant** chargé de formuler des **actions correctives concrètes** sur une campagne publicitaire ou organique.  \r\nTon diagnostic doit aboutir à des recommandations directement applicables.\r\n\r\n📘 **Finalité du livrable :**  \r\nFournir au client ou à l’équipe un **plan d’amélioration opérationnel** en 3 niveaux de priorités.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Résumé du contexte**\r\n   - Plateforme, durée, budget, audience cible\r\n2. **Analyse des performances**\r\n   - KPIs clés, écarts aux objectifs, tendances\r\n3. **Problèmes identifiés**\r\n   - Détails + interprétation\r\n4. **Causes probables**\r\n   - Facteurs internes (ciblage, créa, timing) ou externes (marché, concurrence)\r\n5. **Actions correctives**\r\n   - Court terme (exécution immédiate)\r\n   - Moyen terme (optimisation continue)\r\n   - Long terme (ajustement stratégique)\r\n6. **Plan de mise en œuvre**\r\n   - Tableau : Action | Responsable | Impact estimé | Délai\r\n7. **Évaluation d’impact**\r\n   - Gains attendus après correction\r\n8. **Résumé final**\r\n   - Synthèse de 5 lignes orientée “résultat”\r\n\r\n🧠 **Style IA :**\r\n- Format consulting, clair et synthétique.  \r\n- Prioriser les actions à fort levier.  \r\n- Ajouter une recommandation IA : “Si la campagne devait être relancée, que changerais-tu ?”\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Synthese hebdo taches prioritaires",
+    "file": "prompt/Camille-social-media-manager/18_synthese_hebdo_taches_prioritaires.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Social Media Manager chef d’équipe** et rédige la **synthèse hebdomadaire des priorités** pour ton pôle social media.\r\n\r\n📘 **Objectif :**  \r\nDonner à ton équipe une vision claire des priorités, échéances et points de vigilance de la semaine.\r\n\r\n🧱 **Structure :**\r\n1. **Semaine concernée**\r\n   - Dates, projets clés, deadlines principales\r\n2. **Vue priorisée**\r\n   - Niveau 1 : Urgent & stratégique  \r\n   - Niveau 2 : Important mais non urgent  \r\n   - Niveau 3 : À reporter ou en veille\r\n3. **Livrables attendus**\r\n   - Liste + responsables\r\n4. **Risques / blocages**\r\n   - Points nécessitant arbitrage ou soutien\r\n5. **Alertes projet**\r\n   - Retards, dépendances, validations client\r\n6. **Focus de la semaine**\r\n   - Objectif global de l’équipe (ex : améliorer taux d’engagement)\r\n7. **Motivation d’équipe**\r\n   - Message posit\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Synthesiseur reporting mensuel multicanal",
+    "file": "prompt/Camille-social-media-manager/03_synthesiseur_reporting_mensuel_multicanal.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme un **Social Media Manager analyste** et crée une **synthèse de reporting mensuel** multi-plateforme à partir de données brutes (Meta, LinkedIn, TikTok, X, YouTube, etc.).\r\n\r\n📘 **Objectif :**  \r\nTransformer des chiffres bruts en un **rapport lisible, analytique et orienté décision**.\r\n\r\n🧱 **Structure du livrable :**\r\n1. **Résumé exécutif**\r\n   - Vision d’ensemble des performances globales du mois  \r\n   - 3 bullet points clés (évolution, succès, axe d’amélioration)\r\n2. **Performance globale**\r\n   - KPIs majeurs consolidés  \r\n   - Comparaison avec le mois précédent  \r\n   - Variation en % et interprétation\r\n3. **Analyse par canal**\r\n   - Meta / LinkedIn / TikTok / YouTube  \r\n   - Pour chaque canal : +/−, insight, action\r\n4. **Top contenus**\r\n   - Classement des meilleurs posts avec brève analyse  \r\n   - Formats les plus engageants\r\n5. **Budget & ROI**\r\n   - Dépenses publicitaires / résultats / coût moyen  \r\n   - Analyse du retour sur investissement\r\n6. **Insights clés**\r\n   - Enseignements marketing tirés des résultats\r\n7. **Recommandations stratégiques**\r\n   - 3 actions prioritaires pour le mois suivant\r\n8. **Visualisation**\r\n   - (Optionnel) Suggestions de graphes ou dashboards à inclure\r\n\r\n🧠 **Bonus IA :**\r\n- Ajoute une “alert box” 🚨 si anomalie détectée.  \r\n- Résume à la fin en un **paragraphe C-Level** (“En 45 secondes, voici à retenir…”).  \r\n- Utilise un ton analytique, neutre et orienté décision.\r\n"
+  },
+  {
+    "person": "Camille",
+    "domain": "social media manager",
+    "title": "Traduction insights data plan action",
+    "file": "prompt/Camille-social-media-manager/20_traduction_insights_data_plan_action.md",
+    "excerpt": "🎯 **Contexte :**",
+    "content": "🎯 **Contexte :**  \r\nAgis comme un **Social Media Strategist IA** et transforme des **insights data** en **plan d’action concret et mesurable**.\r\n\r\n📘 **Objectif :**  \r\nPasser de la donnée à la stratégie : interpréter les chiffres et recommander des actions applicables à court terme.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé du dataset**\r\n   - Source, période, plateformes\r\n2. **Principaux insights**\r\n   - Les 5 faits saillants tirés de la data\r\n3. **Interprétation stratégique**\r\n   - Signification marketing de chaque insight\r\n4. **Plan d’action**\r\n   | Insight | Interprétation | Action | Impact attendu | Délai |\r\n5. **Priorisation**\r\n   - Classement par impact / faisabilité\r\n6. **Mesure du succès**\r\n   - KPIs à suivre après mise en œuvre\r\n7. **Recommandation IA**\r\n   - 2 tests de contenu ou ciblage suggérés par l’IA\r\n8. **Synthèse finale**\r\n   - Résumé de 4 lignes : “Voici comment ces données guideront notre prochaine phase.”\r\n\r\n🧠 **Style :**\r\n- Ton analytique, précis et orienté résultats.  \r\n- Utilise un format tableau clair et visuel.  \r\n- Objectif : donner un plan d’action prêt à exécuter dès lecture.\r\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Analyse stats social media",
+    "file": "prompt/Commun/08_analyse_stats_social_media.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **analyste marketing digital**.  \nTon rôle : lire des chiffres SocialPilot et en extraire les points clés.\n\n📘 **Objectif :**  \nProduire une mini-analyse exploitable dans un rapport client.\n\n🧱 **Structure du livrable :**\n1. **Résumé chiffré**\n   - Croissance, engagement, portée  \n2. **Top 3 posts**\n   - Performances + raisons du succès  \n3. **Axes d’amélioration**\n   - Suggestions rapides  \n4. **Synthèse 3 lignes**\n   - Résumé final clair  \n\n🧠 **Style IA :**  \n- Format en listes.  \n- Ton neutre, factuel.  \n- Inclure pourcentage d’évolution.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Checklist automatisations possibles",
+    "file": "prompt/Commun/15_checklist_automatisations_possibles.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **auditeur de productivité IA**.  \nTu dois dresser une check-list d’automatisations possibles à partir d’un process.\n\n📘 **Objectif :**  \nLister les tâches automatisables et leur valeur ajoutée.\n\n🧱 **Structure du livrable :**\n1. **Process analysé**\n   - Nom + description courte  \n2. **Étapes répétitives détectées**\n   - Tâches manuelles  \n3. **Propositions d’automatisation**\n   - Par outil (n8n, Zapier, API, etc.)  \n4. **Priorisation**\n   - Urgent / Facile / Impact élevé  \n5. **Synthèse**\n   - Tableau récapitulatif  \n\n🧠 **Style IA :**  \n- Format tableau Markdown.  \n- Ton analytique et simple.  \n- Priorité à la clarté d’action.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Classement opportunites",
+    "file": "prompt/Commun/18_classement_opportunites.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **analyste stratégique**.  \nClasse des contenus ou opportunités détectées (articles, appels d’offres, leads).\n\n📘 **Objectif :**  \nQualifier la pertinence de chaque opportunité pour l’agence.\n\n🧱 **Structure du livrable :**\n1. **Liste d’éléments à classer**\n   - Titres ou résumés  \n2. **Catégorisation**\n   - Opportunité commerciale / Inspiration / Non pertinent  \n3. **Critères de tri**\n   - Audience, budget, faisabilité  \n4. **Synthèse visuelle**\n   - Tableau de décision  \n\n🧠 **Style IA :**  \n- Tableau clair avec colonnes : *Élément | Catégorie | Justification*.  \n- Format lisible en Notion.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Coordination inter poles",
+    "file": "prompt/Commun/02_coordination_inter_poles.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **consultant en organisation d’agence**.  \nTu dois fluidifier la coordination entre le pôle **vidéo**, **social media**, et **direction**.\n\n📘 **Objectif :**  \nIdentifier les goulots d’étranglement et proposer un workflow simplifié, automatisable.\n\n🧱 **Structure du livrable :**\n1. **Cartographie du flux actuel**\n   - Étapes actuelles, outils utilisés, points de friction  \n2. **Workflow optimisé**\n   - Étapes clés et dépendances  \n3. **Canaux de communication**\n   - Discord, Notion, Google Sheets, Frame.io  \n4. **Automatisations possibles**\n   - Tâches n8n, rappels, intégrations IA  \n5. **Fréquence de synchronisation**\n   - Réunions, check hebdo, validations  \n6. **Diagramme logique simplifié**\n   - Ex. sous forme de liste ou mini-mermaid\n\n🧠 **Style IA :**  \n- Format clair, structuré, orienté actions.  \n- Propose des automatisations directement réalisables.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Idees amelioration ia automatisation",
+    "file": "prompt/Commun/20_idees_amelioration_ia_automatisation.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **conseiller innovation IA**.  \nTa mission : proposer des pistes concrètes d’amélioration IA ou automatisation pour l’équipe.\n\n📘 **Objectif :**  \nIdentifier 5 idées utiles, simples à tester ce mois-ci.\n\n🧱 **Structure du livrable :**\n1. **Contexte**\n   - Outils utilisés (Notion, n8n, Dropbox, SocialPilot, etc.)  \n2. **5 idées IA**\n   - Description + impact attendu  \n3. **Difficulté estimée**\n   - Faible / moyenne / élevée  \n4. **Bénéfice pour l’équipe**\n   - Temps gagné / qualité / fiabilité  \n5. **Plan de test**\n   - Étapes pour validation interne  \n\n🧠 **Style IA :**  \n- Ton créatif, pragmatique.  \n- Format tableau clair.  \n- Axé sur les quick wins.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Modele relance deadline",
+    "file": "prompt/Commun/07_modele_relance_deadline.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **assistant de suivi projet**.  \nTu dois créer un modèle de message de relance J-2 avant une deadline.\n\n📘 **Objectif :**  \nFaciliter les relances automatiques dans Discord, Notion ou mail.\n\n🧱 **Structure du livrable :**\n1. **Version client**\n   - Ton professionnel, bienveillant  \n2. **Version interne**\n   - Ton collaboratif, simple  \n3. **Rappel du contexte**\n   - Tâche / projet / deadline  \n4. **Phrase d’ouverture & de clôture**\n   - Courte et claire  \n\n🧠 **Style IA :**  \n- 2 variantes prêtes à copier-coller.  \n- Ton positif, jamais pressant.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Optimisation post social media",
+    "file": "prompt/Commun/05_optimisation_post_social_media.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **Community Manager senior**.  \nTon rôle : reformuler un post pour maximiser la portée organique et l’impact émotionnel.\n\n📘 **Objectif :**  \nCréer un texte optimisé pour LinkedIn / Instagram avec hashtags et CTA.\n\n🧱 **Structure du livrable :**\n1. **Version optimisée**\n   - Reformulation engageante  \n2. **Call to Action**\n   - Phrase d’engagement naturelle  \n3. **Liste de 3 hashtags pertinents**\n   - Adaptés à la thématique  \n4. **Variante courte**\n   - ≤ 300 caractères  \n5. **Variante storytelling**\n   - Ton narratif plus humain  \n\n🧠 **Style IA :**  \n- Phrase courte, ton oral.  \n- Mots clés clairs.  \n- Inspire l’action sans forcer.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Planification campagne 4 semaines",
+    "file": "prompt/Commun/01_planification_campagne_4_semaines.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **Chef de projet digital** chargé d’organiser une campagne sur 4 semaines.  \nTon rôle : structurer la planification complète (tâches, priorités, livrables).\n\n📘 **Objectif :**  \nCréer un plan clair, cohérent et directement exploitable dans Notion ou Google Sheets.\n\n🧱 **Structure du livrable :**\n1. **Contexte du projet**  \n   - Objectifs, plateformes, ressources disponibles  \n2. **Planning par semaine**  \n   - Liste des tâches, responsables, deadlines  \n3. **Livrables attendus**  \n   - Formats, validations, publications  \n4. **Priorisation**  \n   - Ce qui est urgent, important, secondaire  \n5. **Risques & contraintes**  \n   - Délais, dépendances, coordination  \n6. **Vue synthétique**  \n   - Tableau récapitulatif à copier dans Notion  \n\n🧠 **Style IA :**  \n- Ton professionnel, concis.  \n- Organisation visuelle (tableau Markdown ou puces).  \n- Priorité à la clarté d’action.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Proposition automatisation n8n",
+    "file": "prompt/Commun/14_proposition_automatisation_n8n.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **architecte d’automatisation n8n**.  \nTon rôle : proposer un scénario automatisé à partir d’une tâche répétitive.\n\n📘 **Objectif :**  \nIdentifier les nœuds, déclencheurs et APIs nécessaires à un workflow fonctionnel.\n\n🧱 **Structure du livrable :**\n1. **Tâche manuelle identifiée**\n   - Description courte  \n2. **Objectif du workflow**\n   - Ce que doit automatiser n8n  \n3. **Déclencheur**\n   - ex : formulaire, événement, heure planifiée  \n4. **Étapes du scénario**\n   - Liste ordonnée des nœuds (ex : HTTP Request, IF, Notion, Discord)  \n5. **Résultat attendu**\n   - Sortie ou message final  \n\n🧠 **Style IA :**  \n- Liste claire et logique.  \n- Utilise les termes officiels n8n.  \n- Mentionne si l’automatisation est \"faible code\" ou \"API-only\".\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Reformulation message pro",
+    "file": "prompt/Commun/04_reformulation_message_pro.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **assistant de communication pro**.  \nTa mission : reformuler un message interne ou client pour le rendre clair, fluide et professionnel.\n\n📘 **Objectif :**  \nTransformer un texte brut en message percutant au ton \"Indigo\" (pro, direct, humain).\n\n🧱 **Structure du livrable :**\n1. **Version reformulée**\n   - Texte clair, concis, bienveillant  \n2. **Ton & intention**\n   - Client ou équipe  \n3. **Option 2 (plus directe)**  \n   - Variante courte pour Discord  \n4. **Option 3 (formelle)**  \n   - Variante mail client  \n\n🧠 **Style IA :**  \n- Courte, polie, sans jargon.  \n- 2 à 3 variantes prêtes à copier.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Resume automatisations actives",
+    "file": "prompt/Commun/16_resume_automatisations_actives.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **superviseur d’automatisation IA**.  \nTu dois rédiger un récap clair des automatisations existantes.\n\n📘 **Objectif :**  \nFaciliter le suivi dans Notion et la supervision technique (Vincent/Bastien).\n\n🧱 **Structure du livrable :**\n1. **Nom du workflow**\n   - Objectif et statut (actif / test / en pause)  \n2. **Outils impliqués**\n   - n8n, Discord, Notion, API externes  \n3. **Tâches couvertes**\n   - Reporting, rappels, modération, etc.  \n4. **Logs ou alertes**\n   - Fréquence, erreurs, solutions  \n5. **Suggestions d’amélioration**\n   - Ajouts, simplifications, optimisation  \n\n🧠 **Style IA :**  \n- Ton synthétique et clair.  \n- Présentation en tableau ou en puces.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Resume donnees rapport mensuel",
+    "file": "prompt/Commun/09_resume_donnees_rapport_mensuel.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **assistant reporting**.  \nTu dois synthétiser un tableau de données en un paragraphe clair.\n\n📘 **Objectif :**  \nRédiger une phrase de synthèse compréhensible pour un client.\n\n🧱 **Structure du livrable :**\n1. **Résumé global**\n   - Contexte du mois  \n2. **Chiffres clés**\n   - 3 indicateurs principaux  \n3. **Interprétation simple**\n   - Pourquoi c’est positif ou non  \n4. **Phrase de conclusion**\n   - À copier dans Canva / PPT  \n\n🧠 **Style IA :**  \n- 5 phrases max.  \n- Pas de jargon.  \n- Style rapport pro.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Resume hebdo points bloquants",
+    "file": "prompt/Commun/03_resume_hebdo_points_bloquants.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **assistant de coordination d’équipe**.  \nAnalyse un tableau ou un CR Notion/Discord pour détecter les blocages.\n\n📘 **Objectif :**  \nProduire un résumé hebdomadaire des problèmes à résoudre, avec un mini plan d’action.\n\n🧱 **Structure du livrable :**\n1. **Résumé des blocages**\n   - Tâches bloquées, raison, impact  \n2. **Priorités de la semaine**\n   - 3 actions urgentes à traiter  \n3. **Ressources manquantes**\n   - Docs, validations, fichiers  \n4. **Propositions de solution**\n   - Actions correctives  \n5. **Synthèse en 5 lignes**\n   - Lisible pour réunion interne  \n\n🧠 **Style IA :**  \n- Format clair, bullet points.  \n- Max 10 lignes par section.  \n- Ton factuel et neutre.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Selection plans montage video",
+    "file": "prompt/Commun/11_selection_plans_montage_video.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **assistant monteur vidéo IA**.  \nTa mission : analyser un brief ou un script et sélectionner les plans les plus pertinents pour un montage court.\n\n📘 **Objectif :**  \nFaciliter le dérushage et réduire le temps de tri vidéo.\n\n🧱 **Structure du livrable :**\n1. **Contexte du projet**  \n   - Type de vidéo, objectif, durée finale  \n2. **Top 3 plans recommandés**  \n   - Description + moment clé + raison du choix  \n3. **Rythme de montage**  \n   - Estimation du tempo / transitions  \n4. **Suggestion de structure**\n   - Hook / corps / fin  \n5. **Conseils visuels**\n   - Cadrage, ambiance, son ou effets à prévoir  \n\n🧠 **Style IA :**  \n- Format clair et concis.  \n- Ton professionnel mais créatif.  \n- Évite les détails techniques trop profonds.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Storyboard automatise",
+    "file": "prompt/Commun/13_storyboard_automatise.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **réalisateur IA**.  \nÀ partir d’un script ou d’une idée, conçois un storyboard court et visuel.\n\n📘 **Objectif :**  \nOffrir une base claire pour la pré-production ou un brief client.\n\n🧱 **Structure du livrable :**\n1. **Résumé de la vidéo**\n   - Sujet, durée, message  \n2. **Storyboard (5 plans max)**\n   - Plan | Durée | Angle | Ambiance | Texte à l’écran  \n3. **Climax visuel**\n   - Moment fort à marquer  \n4. **CTA final**\n   - Ce que doit retenir le spectateur  \n5. **Suggestion de style visuel**\n   - Ex : caméra fixe, plan séquence, ton inspirant  \n\n🧠 **Style IA :**  \n- Tableau Markdown clair.  \n- Style concis, inspirant et actionnable.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Synthese hebdo discord",
+    "file": "prompt/Commun/19_synthese_hebdo_discord.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **assistant éditorial IA**.  \nTu dois résumer la veille hebdomadaire pour publication Discord.\n\n📘 **Objectif :**  \nPublier un message court et attractif sur les actus Web2/Web3 / communication.\n\n🧱 **Structure du livrable :**\n1. **Titre accrocheur**\n   - En 1 phrase  \n2. **Résumé (max 5 lignes)**\n   - Tendances principales  \n3. **3 points clés**\n   - Ce qu’il faut retenir  \n4. **Conclusion courte**\n   - “Ce que ça change pour nous”  \n5. **Hashtags / Emojis**\n   - Pour rendre la publication dynamique  \n\n🧠 **Style IA :**  \n- Ton dynamique, informatif.  \n- Format message Discord (markdown + emoji).  \n- Max 1000 caractères.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Synthese veille automatisee",
+    "file": "prompt/Commun/17_synthese_veille_automatisee.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **veilleur IA stratégique**.  \nAnalyse des articles / vidéos / posts LinkedIn pour en extraire les tendances clés.\n\n📘 **Objectif :**  \nCréer un résumé exploitable dans le canal Discord “Veille”.\n\n🧱 **Structure du livrable :**\n1. **Sources analysées**\n   - Titres ou liens  \n2. **3 tendances principales**\n   - Synthèse courte  \n3. **Exemples marquants**\n   - Données, citations, extraits  \n4. **Recommandations internes**\n   - Comment exploiter ces infos pour Indigo  \n5. **Mini conclusion**\n   - Résumé en 2 lignes  \n\n🧠 **Style IA :**  \n- Format bullet points.  \n- Ton neutre et informatif.  \n- Idéal pour intégration bot Discord.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Tableau comparatif performances",
+    "file": "prompt/Commun/10_tableau_comparatif_performances.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **analyste social media**.  \nTon rôle : transformer des chiffres en un tableau clair.\n\n📘 **Objectif :**  \nComparer les performances par réseau.\n\n🧱 **Structure du livrable :**\n1. **Tableau de comparaison**\n   - Facebook / Instagram / LinkedIn  \n2. **Colonnes clés**\n   - Engagement, croissance, top posts  \n3. **Analyse synthétique**\n   - 3 points “ce qui marche / ce qui décroît”  \n\n🧠 **Style IA :**  \n- Format Markdown (tableau clair).  \n- Évite les phrases longues.  \n- Lisible en Notion directement.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Titres descriptions videos",
+    "file": "prompt/Commun/12_titres_descriptions_videos.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **copywriter vidéo** spécialisé en plateformes sociales (YouTube Shorts, Reels, TikTok).  \nTon rôle : créer des titres accrocheurs et des descriptions engageantes.\n\n📘 **Objectif :**  \nMaximiser la rétention et le taux de clics avec un ton cohérent à la marque.\n\n🧱 **Structure du livrable :**\n1. **Titre principal (SEO optimisé)**  \n   - ≤ 60 caractères  \n2. **2 variantes alternatives**  \n   - Ton humoristique / informatif  \n3. **Description complète**\n   - 2 phrases de contexte + CTA clair  \n4. **Mots-clés et hashtags**  \n   - 5 à 10 suggestions  \n\n🧠 **Style IA :**  \n- Ton vivant, naturel.  \n- Accent sur la curiosité et l’émotion.  \n- Évite les clickbaits exagérés.\n\n"
+  },
+  {
+    "person": "Commun CNL",
+    "domain": "Commun",
+    "title": "Traduction reformulation pro",
+    "file": "prompt/Commun/06_traduction_reformulation_pro.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **traducteur-rédacteur bilingue (FR/EN)**.  \nTa mission : traduire et reformuler naturellement pour communication client.\n\n📘 **Objectif :**  \nObtenir une version anglaise fluide, naturelle, sans ton trop formel.\n\n🧱 **Structure du livrable :**\n1. **Version traduite**\n   - Anglais professionnel et fluide  \n2. **Option alternative**\n   - Style plus marketing / story-driven  \n3. **Conseils de ton**\n   - Business / Friendly selon le contexte  \n\n🧠 **Style IA :**  \n- Langage humain, sans traduction littérale.  \n- Ajuste les expressions culturelles.\n\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Adaptation cross platform",
+    "file": "prompt/Lea-Community-Manager/10_adaptation_cross_platform.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme **Community Manager multicanal**, et **adapte un même contenu** pour plusieurs plateformes (LinkedIn, Instagram, TikTok).  \r\nTon objectif : ajuster ton, format et structure selon le réseau, tout en gardant la cohérence du message.\r\n\r\n📘 **Objectif :**  \r\nCréer 3 versions optimisées d’un post pour chaque plateforme, respectant les codes spécifiques à chacune.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Post source**\r\n   - Texte original à adapter\r\n2. **Version LinkedIn**\r\n   - Ton pro, storytelling, paragraphe structuré, CTA clair\r\n3. **Version Instagram**\r\n   - Ton émotionnel, phrases courtes, emojis, hashtags\r\n4. **Version TikTok**\r\n   - Accroche punchy, format vidéo, langage oral, idée de script\r\n5. **Comparatif**\r\n   - Tableau “Canal | Ton | Format | Objectif | Adaptation”\r\n6. **Recommandations IA**\r\n   - Quand publier, quelle miniature ou visuel associer\r\n7. **Synthèse**\r\n   - 4 lignes : “Ces adaptations garantissent la cohérence cross-plateforme tout en optimisant la performance.”\r\n\r\n🧠 **Style :**\r\n- Langage spécifique à chaque plateforme.  \r\n- Adapte la longueur, les CTA et le registre.  \r\n- Ajoute des emojis adaptés : 💼 (LinkedIn), 💖 (Instagram), 🎥 (TikTok).\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Analyse ton de marque",
+    "file": "prompt/Lea-Community-Manager/04_analyse_ton_de_marque.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager brand voice expert**, et effectue une **analyse approfondie du ton de marque** à partir d’un texte ou d’une série de publications existantes.\r\n\r\n📘 **Objectif :**  \r\nIdentifier le ton dominant, la cohérence, les écarts et proposer des axes d’ajustement pour renforcer l’identité verbale.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Résumé du corpus analysé**\r\n   - Nombre de posts / type de contenu\r\n2. **Caractéristiques du ton actuel**\r\n   - Formalité, proximité, émotion, vocabulaire, rythme, emojis\r\n3. **Alignement avec la marque**\r\n   - Adéquation entre ton et valeurs\r\n4. **Incohérences détectées**\r\n   - Variations inégales selon plateforme ou contexte\r\n5. **Recommandations**\r\n   - Comment uniformiser, humaniser ou affirmer le ton\r\n6. **Proposition de charte tonale simplifiée**\r\n   - 3 règles d’or + 3 phrases-type “signature”\r\n7. **Synthèse finale**\r\n   - “Le ton de marque perçu aujourd’hui est X, il devrait évoluer vers Y pour mieux incarner…”\r\n\r\n🧠 **Style IA :**\r\n- Analyse linguistique + perceptive.  \r\n- Ton neutre et analytique.  \r\n- Ajoute une note de cohérence sur 10.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Audit identite editoriale",
+    "file": "prompt/Lea-Community-Manager/13_audit_identite_editoriale.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager stratégique**, et effectue un **audit complet d’identité éditoriale** d’une marque.\r\n\r\n📘 **Objectif :**  \r\nAnalyser la cohérence entre ton, messages, visuels, valeurs et perception du public.\r\n\r\n🧱 **Structure :**\r\n1. **Présentation de la marque**\r\n   - Contexte, mission, valeurs\r\n2. **Analyse des contenus**\r\n   - Typologie, fréquence, ton, thématiques\r\n3. **Cohérence visuelle et verbale**\r\n   - Alignement avec l’identité de marque\r\n4. **Perception communauté**\r\n   - Feedbacks, engagement, réactions\r\n5. **Évaluation IA**\r\n   - Score de cohérence éditoriale /10\r\n6. **Recommandations**\r\n   - 3 axes de renforcement identitaire\r\n7. **Synthèse**\r\n   - 5 lignes : “L’identité actuelle est perçue comme X, elle gagnerait à évoluer vers Y.”\r\n\r\n🧠 **Style :**\r\n- Ton d’audit, professionnel, concret.  \r\n- Format combinant texte et tableau.  \r\n- Objectif : renforcer la singularité de la marque.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Brief creatif IA from trends",
+    "file": "prompt/Lea-Community-Manager/19_brief_creatif_IA_from_trends.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager curieuse et créative**, et rédige un **brief créatif complet** inspiré des tendances du moment.\r\n\r\n📘 **Objectif :**  \r\nTransformer une tendance virale en concept de contenu aligné à la marque.\r\n\r\n🧱 **Structure :**\r\n1. **Trend observée**\r\n   - Nom, plateforme, mécanique\r\n2. **Objectif du contenu**\r\n   - Engagement / notoriété / conversion\r\n3. **Concept créatif**\r\n   - Idée, message, visuel, script\r\n4. **Adaptation marque**\r\n   - Ajustement du ton, hashtags, valeurs\r\n5. **Livrables**\r\n   - Formats, durée, planning\r\n6. **Recommandation IA**\r\n   - 2 variantes du concept\r\n7. **Synthèse**\r\n   - “Ce concept traduit la tendance en contenu cohérent et performant.”\r\n\r\n🧠 **Style :**\r\n- Ton inspiré et professionnel.  \r\n- Format de brief complet, utilisable par une équipe créa.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Createur variantes posts performants",
+    "file": "prompt/Lea-Community-Manager/02_createur_variantes_posts_performants.md",
+    "excerpt": "🎯 **Contexte :**",
+    "content": "🎯 **Contexte :**  \r\nAgis comme **Community Manager data-driven**, et génère **plusieurs variantes performantes** d’un même post selon différents objectifs (engagement, conversion, reach, viralité).\r\n\r\n📘 **Objectif :**  \r\nOptimiser les contenus existants sans réinventer la roue, tout en variant le ton, le format et le CTA.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Post original**\r\n   - Copie initiale à améliorer\r\n2. **Analyse rapide**\r\n   - Points forts / faibles de la version actuelle\r\n3. **Variante #1 : Engagement**\r\n   - Plus conversationnelle, incitant à commenter\r\n4. **Variante #2 : Conversion**\r\n   - CTA fort, bénéfice client clair\r\n5. **Variante #3 : Notoriété / Reach**\r\n   - Ton inspirationnel ou humour subtil\r\n6. **Variante #4 : Éducatif / Valeur ajoutée**\r\n   - Pédagogique, orienté conseil ou astuce\r\n7. **Hashtags et accroches optimisés**\r\n   - Liste IA de 10 hashtags cohérents\r\n8. **Synthèse**\r\n   - Comparatif de ton / style / objectif\r\n\r\n🧠 **Style IA :**\r\n- Ton adaptable selon marque (jeune, corporate, lifestyle).  \r\n- Indique le format idéal pour chaque variante (reel, carrousel, visuel statique).  \r\n- Ajoute des étiquettes : 🎯Objectif / 💬Ton / 📈Impact attendu.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Debrief hebdo performance contenus",
+    "file": "prompt/Lea-Community-Manager/12_debrief_hebdo_performance_contenus.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme **Community Manager analytique**, et rédige un **débrief hebdomadaire clair et visuel** sur les performances des publications.\r\n\r\n📘 **Objectif :**  \r\nSynthétiser les résultats de la semaine, identifier les tendances et proposer des pistes d’amélioration rapide.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé global**\r\n   - Portée, engagement, croissance communauté\r\n2. **Top 3 contenus**\r\n   - Post | Performance | Insights\r\n3. **Contenus faibles**\r\n   - Analyse des causes (moment, format, message)\r\n4. **Tendances observées**\r\n   - Ce que la communauté aime / rejette\r\n5. **Recommandations**\r\n   - 3 actions à tester la semaine suivante\r\n6. **Synthèse**\r\n   - “Cette semaine, le format vidéo + ton humoristique performe 30 % mieux.”\r\n\r\n🧠 **Style :**\r\n- Clair, visuel, orienté action.  \r\n- Format tableau + mini paragraphes.  \r\n- Ajoute un emoji performance (🔥, 📈, 💤).\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Detecteur opportunites tendances social media",
+    "file": "prompt/Lea-Community-Manager/03_detecteur_opportunites_tendances_social_media.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme **Community Manager en veille permanente**, et détecte les **opportunités de tendances social media** pertinentes pour une marque donnée.\r\n\r\n📘 **Objectif :**  \r\nIdentifier les tendances actuelles et à venir sur TikTok, Instagram, X et LinkedIn, tout en les adaptant à la voix et aux valeurs de la marque.\r\n\r\n🧱 **Structure à produire :**\r\n1. **Résumé du contexte**\r\n   - Secteur, plateforme principale, ton de marque\r\n2. **Top 5 tendances actuelles**\r\n   - Nom du trend, description, format typique\r\n3. **Pertinence pour la marque**\r\n   - Comment et pourquoi l’exploiter\r\n4. **Adaptations possibles**\r\n   - Version éditoriale adaptée (ex : “Comment détourner ce trend pour le B2B ?”)\r\n5. **Plan d’action IA**\r\n   - Quand publier, quoi dire, avec quels hashtags\r\n6. **Avertissements**\r\n   - Ce qu’il faut éviter (risque d’image, mauvaise interprétation)\r\n7. **Synthèse actionable**\r\n   - 3 trends à exploiter immédiatement\r\n\r\n🧠 **Recommandations IA :**\r\n- Utilise un ton expert mais accessible.  \r\n- Mets les tendances en gras.  \r\n- Précise la **courbe de popularité** (en montée / stable / saturée).\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Generateur calendrier editorial par ton et cible",
+    "file": "prompt/Lea-Community-Manager/01_generateur_calendrier_editorial_par_ton_et_cible.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \r\nAgis comme **Community Manager stratégique et créative**, et conçois un **calendrier éditorial complet** en fonction d’un **ton de marque spécifique** (ex : fun, expert, engagé, bienveillant) et d’une **cible définie** (B2B, Gen Z, lifestyle, tech, etc.).\r\n\r\n📘 **Objectif :**  \r\nCréer un **planning éditorial cohérent, inspirant et structuré** sur 4 semaines, adapté à la voix de la marque et à sa communauté.\r\n\r\n🧱 **Structure du livrable :**\r\n1. **Résumé stratégique**\r\n   - Cible, ton, plateformes, période, fréquence de publication\r\n2. **Axes éditoriaux**\r\n   - 3 à 5 piliers de contenu définissant la ligne (valeurs, thèmes, storytelling)\r\n3. **Calendrier détaillé**\r\n   - Semaine | Date | Thème | Format | Objectif | Ton | CTA\r\n4. **Détails de contenu**\r\n   - Idées de visuels / formats / légendes courtes  \r\n   - Adaptation du message selon le ton choisi\r\n5. **Recommandations IA**\r\n   - 3 suggestions de contenus complémentaires selon l’actualité ou saisonnalité\r\n6. **Synthèse**\r\n   - 5 lignes : “Ce calendrier renforce la cohérence entre ton, audience et objectifs.”\r\n\r\n🧠 **Conseils IA :**\r\n- Utilise des émojis modérés (🎯, ✨, 📅).  \r\n- Ton équilibré entre créativité et rigueur.  \r\n- Format exportable dans Notion, Sheets ou Trello.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Generateur formats interactifs",
+    "file": "prompt/Lea-Community-Manager/15_generateur_formats_interactifs.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager créative**, et propose des **formats interactifs originaux** pour animer la communauté (quiz, sondages, carrousels, challenges, etc.).\r\n\r\n📘 **Objectif :**  \r\nStimuler la participation, l’engagement et la mémorisation des messages.\r\n\r\n🧱 **Structure :**\r\n1. **Contexte**\r\n   - Plateforme, thématique, objectif\r\n2. **Format #1 : Quiz / sondage**\r\n   - Titre, question, 3 options\r\n3. **Format #2 : Carrousel**\r\n   - Thème, plan slide par slide\r\n4. **Format #3 : Challenge / UGC**\r\n   - Description + règles + hashtag\r\n5. **Valeur ajoutée**\r\n   - Bénéfice pour la marque et la communauté\r\n6. **Recommandations IA**\r\n   - 2 formats bonus selon les tendances actuelles\r\n7. **Synthèse**\r\n   - “Ces\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Generateur hashtags pertinents",
+    "file": "prompt/Lea-Community-Manager/07_generateur_hashtags_pertinents.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager IA**, et crée une **liste intelligente de hashtags** adaptés à un contenu, une marque, une campagne ou une audience donnée.\r\n\r\n📘 **Objectif :**  \r\nOptimiser la découvrabilité, le reach et la cohérence communautaire du post.\r\n\r\n🧱 **Structure de sortie :**\r\n1. **Résumé du contenu**\r\n   - Sujet, plateforme, objectif (reach, branding, conversion)\r\n2. **Hashtags principaux**\r\n   - 10 à 15 hashtags cœur de sujet\r\n3. **Hashtags secondaires**\r\n   - 10 hashtags audience / lifestyle / tendances\r\n4. **Hashtags de niche**\r\n   - 5 ciblés, faibles volumes mais très qualifiés\r\n5. **Recommandations d’usage**\r\n   - Nombre idéal, placement, alternance\r\n6. **Suggestions IA**\r\n   - 3 idées d’angles éditoriaux pour enrichir le contenu\r\n7. **Synthèse**\r\n   - “Cette combinaison maximise la visibilité tout en gardant la cohérence de marque.”\r\n\r\n🧠 **Style :**\r\n- Ajoute le **volume estimé** de chaque hashtag (faible / moyen / fort).  \r\n- Adapte la sélection selon la plateforme.  \r\n- Classe les hashtags par pertinence décroissante.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Gestion crise communication sensible",
+    "file": "prompt/Lea-Community-Manager/20_gestion_crise_communication_sensible.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager curieuse et créative**, et rédige un **brief créatif complet** inspiré des tendances du moment.\r\n\r\n📘 **Objectif :**  \r\nTransformer une tendance virale en concept de contenu aligné à la marque.\r\n\r\n🧱 **Structure :**\r\n1. **Trend observée**\r\n   - Nom, plateforme, mécanique\r\n2. **Objectif du contenu**\r\n   - Engagement / notoriété / conversion\r\n3. **Concept créatif**\r\n   - Idée, message, visuel, script\r\n4. **Adaptation marque**\r\n   - Ajustement du ton, hashtags, valeurs\r\n5. **Livrables**\r\n   - Formats, durée, planning\r\n6. **Recommandation IA**\r\n   - 2 variantes du concept\r\n7. **Synthèse**\r\n   - “Ce concept traduit la tendance en contenu cohérent et performant.”\r\n\r\n🧠 **Style :**\r\n- Ton inspiré et professionnel.  \r\n- Format de brief complet, utilisable par une équipe créa.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Optimize images prompts visuels IA",
+    "file": "prompt/Lea-Community-Manager/16_optimize_images_prompts_visuels_IA.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager visuelle**, et rédige des **prompts optimisés** pour générer ou améliorer des visuels IA cohérents avec la marque.\r\n\r\n📘 **Objectif :**  \r\nAider à produire des images esthétiques et cohérentes pour les posts.\r\n\r\n🧱 **Structure :**\r\n1. **Contexte**\r\n   - Type de contenu, plateforme, style visuel\r\n2. **Analyse du besoin**\r\n   - Thème, ambiance, public cible\r\n3. **Prompt IA optimisé**\r\n   - Description précise, lumière, style, composition\r\n4. **Versions alternatives**\r\n   - 2 variantes de style (réaliste / illustratif / flat design)\r\n5. **Conseils techniques**\r\n   - Ratio, couleurs, typographies cohérentes\r\n6. **Synthèse**\r\n   - “Ce prompt visuel garantit des créations alignées avec la direction artistique.”\r\n\r\n🧠 **Style :**\r\n- Détail maximum.  \r\n- Format compatible Midjourney, DALL·E, etc.  \r\n- Ton créatif et précis.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Plan action amelioration engagement",
+    "file": "prompt/Lea-Community-Manager/18_plan_action_amelioration_engagement.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme **Community Manager stratégique**, et propose un **plan d’action détaillé** pour augmenter l’engagement (likes, commentaires, partages, temps d’attention).\r\n\r\n📘 **Objectif :**  \r\nAméliorer durablement la performance des contenus via des leviers éditoriaux, créatifs et communautaires.\r\n\r\n🧱 **Structure :**\r\n1. **Analyse initiale**\r\n   - Engagement actuel, freins identifiés\r\n2. **Leviers rapides**\r\n   - Format, CTA, fréquence, ton\r\n3. **Leviers créatifs**\r\n   - Stories, lives, formats participatifs\r\n4. **Leviers relationnels**\r\n   - Réponses, UGC, sondages, micro-influence\r\n5. **Plan sur 30 jours**\r\n   - Action | Responsable | Impact | KPI\r\n6. **Suivi et mesure**\r\n   - Comment évaluer les progrès\r\n7. **Synthèse**\r\n   - “Ce plan structure une dynamique d’engagement durable.”\r\n\r\n🧠 **Style :**\r\n- Structuré, orienté solution.  \r\n- Tableau prioritaire.  \r\n- Ton positif et motivant.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Prompt storytelling marque",
+    "file": "prompt/Lea-Community-Manager/14_prompt_storytelling_marque.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager storytelling master**, et écris un **storytelling de marque captivant** à partir d’informations brutes (histoire, valeurs, mission, anecdotes).\r\n\r\n📘 **Objectif :**  \r\nTransformer les éléments rationnels d’une marque en récit émotionnel et engageant.\r\n\r\n🧱 **Structure :**\r\n1. **Contexte**\r\n   - Secteur, audience, ton souhaité\r\n2. **Trame narrative**\r\n   - Début : origine, intention  \r\n   - Milieu : défis, apprentissages  \r\n   - Fin : vision, impact\r\n3. **Version courte (pour post)**\r\n   - 100–150 mots\r\n4. **Version longue (pour site ou article)**\r\n   - 300–500 mots\r\n5. **Punchlines / citations marque**\r\n   - 3 phrases-clés réutilisables\r\n6. **Recommandations IA**\r\n   - 2 angles éditoriaux alternatifs\r\n7. **Synthèse**\r\n   - “Ce storytelling renforce la connexion émotionnelle et la différenciation de la marque.”\r\n\r\n🧠 **Style :**\r\n- Ton humain, sincère, inspirant.  \r\n- Utilise la structure Héros – Défi – Transformation.  \r\n- Format prêt à publier.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Prompt veille concurrentielle par secteur",
+    "file": "prompt/Lea-Community-Manager/06_prompt_veille_concurrentielle_par_secteur.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager analyste**, et produis une **veille concurrentielle sectorielle** sur les réseaux sociaux.  \r\nAnalyse les concurrents directs, leurs performances, leurs types de contenus et leur ton.\r\n\r\n📘 **Objectif :**  \r\nIdentifier ce qui fonctionne dans le secteur, repérer les opportunités inexploitées et nourrir la stratégie de contenu.\r\n\r\n🧱 **Structure :**\r\n1. **Contexte**\r\n   - Secteur, marché, position de la marque\r\n2. **Liste des concurrents analysés**\r\n   - Noms, plateformes, volumes d’abonnés\r\n3. **Analyse comparative**\r\n   - Type de contenu / fréquence / ton / engagement moyen\r\n4. **Forces du marché**\r\n   - Bonnes pratiques observées\r\n5. **Axes d’amélioration possibles**\r\n   - Opportunités non exploitées\r\n6. **Recommandations IA**\r\n   - 3 pistes de différenciation éditoriale\r\n7. **Synthèse**\r\n   - Résumé en 5 lignes : “La marque pourrait se démarquer en…”\r\n\r\n🧠 **Style :**\r\n- Format tableau + paragraphe.  \r\n- Ton analytique et inspirant.  \r\n- Ajoute des emojis simples pour catégoriser : 💡bonne idée / ⚠️risque / 🚀opportunité.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Redacteur bio accroche profil optimise",
+    "file": "prompt/Lea-Community-Manager/11_redacteur_bio_accroche_profil_optimise.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager branding expert**, et rédige une **bio ou accroche de profil optimisée** pour les plateformes (Instagram, TikTok, LinkedIn, X).\r\n\r\n📘 **Objectif :**  \r\nCréer une bio courte, percutante, alignée avec la personnalité de la marque et optimisée SEO/social.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Profil analysé**\r\n   - Marque, secteur, audience\r\n2. **Analyse actuelle**\r\n   - Points forts / faibles de la bio existante\r\n3. **Propositions IA**\r\n   - Version courte (80 caractères max)  \r\n   - Version moyenne (150 caractères)  \r\n   - Version longue (250 caractères)\r\n4. **Tonalité**\r\n   - Variante selon ton : pro, décalé, expert, chaleureux\r\n5. **Mots-clés stratégiques**\r\n   - 5 à 10 keywords à intégrer\r\n6. **CTA de bio**\r\n   - Lien / phrase d’action\r\n7. **Synthèse**\r\n   - “Cette bio incarne la personnalité de la marque tout en maximisant la conversion profil → clic.”\r\n\r\n🧠 **Style :**\r\n- Phrase courte, rythmée, forte.  \r\n- Utilise emojis ciblés si cohérent.  \r\n- Adapte selon plateforme et audience.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Reponses moderation bienveillantes",
+    "file": "prompt/Lea-Community-Manager/08_reponses_moderation_bienveillantes.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \r\nAgis comme **Community Manager empathique et diplomate**, et rédige des **réponses de modération bienveillantes et stratégiques** à des commentaires, messages ou critiques.  \r\nTon rôle : préserver la réputation, maintenir la proximité et encourager une communauté saine.\r\n\r\n📘 **Objectif :**  \r\nCréer des modèles de réponses adaptés à différents types d’interactions, tout en respectant la voix de la marque et les bonnes pratiques de gestion communautaire.\r\n\r\n🧱 **Structure du livrable :**\r\n1. **Type d’interaction**  \r\n   - Positif (remerciement, compliment)  \r\n   - Neutre (question, demande d’info)  \r\n   - Négatif (plainte, critique, ironie)\r\n2. **Réponse standardisée**\r\n   - Formulation adaptée à chaque cas  \r\n   - Ton positif, empathique, personnalisé\r\n3. **Variante courte et longue**\r\n   - Réponse rapide (<20 mots) et version conversationnelle (>40 mots)\r\n4. **Message privé complémentaire (si nécessaire)**\r\n   - Exemple de DM d’apaisement ou de réassurance\r\n5. **Erreurs à éviter**\r\n   - Formules défensives, excuses excessives, ironie\r\n6. **Recommandation IA**\r\n   - 3 formulations alternatives selon ton de marque (pro, cool, engagé)\r\n7. **Synthèse**\r\n   - “Ces réponses renforcent l’image de marque et transforment les critiques en opportunités relationnelles.”\r\n\r\n🧠 **Style IA :**\r\n- Utilise un langage empathique, humain, chaleureux.  \r\n- Insère des emojis légers (😊, 🙌, 💬).  \r\n- Ton toujours constructif et non réactif.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Rewriting optimise engagement",
+    "file": "prompt/Lea-Community-Manager/05_rewriting_optimise_engagement.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme **Community Manager experte en copywriting**, et **réécris un post existant** pour maximiser l’engagement (likes, commentaires, partages, temps de lecture).\r\n\r\n📘 **Objectif :**  \r\nTransformer un texte standard en publication performante selon les bonnes pratiques social media.\r\n\r\n🧱 **Structure :**\r\n1. **Texte original**\r\n   - À insérer ou coller\r\n2. **Analyse des faiblesses**\r\n   - Titre peu impactant, CTA flou, ton plat…\r\n3. **Nouvelle version optimisée**\r\n   - Accroche percutante  \r\n   - Corps fluide et storytelling  \r\n   - CTA clair et engageant\r\n4. **Explication des changements**\r\n   - Pourquoi chaque ajustement améliore la performance\r\n5. **Tests alternatifs**\r\n   - 2 versions A/B de la première phrase\r\n6. **Hashtags suggérés**\r\n   - 10 hashtags IA pertinents selon objectif\r\n7. **Synthèse**\r\n   - Résumé des leviers d’engagement ajoutés\r\n\r\n🧠 **Style IA :**\r\n- Ton naturel, conversationnel et humain.  \r\n- Adapte à chaque plateforme.  \r\n- Objectif : obtenir + de réactions sans perdre la voix de marque.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Synthese retours communautes",
+    "file": "prompt/Lea-Community-Manager/17_synthese_retours_communautes.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager à l’écoute**, et synthétise les **retours, commentaires et feedbacks** de la communauté sur une période donnée.\r\n\r\n📘 **Objectif :**  \r\nIdentifier les tendances d’opinion, les points de satisfaction et d’insatisfaction, et orienter les futures communications.\r\n\r\n🧱 **Structure :**\r\n1. **Volume et sources**\r\n   - Nombre de commentaires, messages, plateformes\r\n2. **Analyse qualitative**\r\n   - Thèmes dominants, émotions, tonalité\r\n3. **Points positifs**\r\n   - Ce que la communauté apprécie\r\n4. **Points négatifs / irritants**\r\n   - Réclamations, confusions, critiques\r\n5. **Propositions IA**\r\n   - 3 actions concrètes d’amélioration\r\n6. **Synthèse exécutive**\r\n   - 5 lignes à transmettre à la direction\r\n\r\n🧠 **Style :**\r\n- Ton neutre, synthétique.  \r\n- Inclure pourcentage de tonalité (70 % positif, 20 % neutre, 10 % négatif).  \r\n- Objectif : insight communautaire clair.\r\n"
+  },
+  {
+    "person": "Lea",
+    "domain": "Community Manager",
+    "title": "Verification charte editoriale",
+    "file": "prompt/Lea-Community-Manager/09_verification_charte_editoriale.md",
+    "excerpt": "🎯 **Contexte :**",
+    "content": "🎯 **Contexte :**  \r\nAgis comme **Community Manager garante de la cohérence**, et **analyse un texte, visuel ou script** pour vérifier s’il respecte la **charte éditoriale** de la marque (ton, vocabulaire, valeurs, esthétique).\r\n\r\n📘 **Objectif :**  \r\nDéterminer si un contenu est aligné avec la personnalité, la voix et les standards éditoriaux de la marque.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé de la charte**\r\n   - Valeurs, ton, champs lexicaux autorisés/interdits\r\n2. **Contenu testé**\r\n   - Texte ou visuel à évaluer\r\n3. **Évaluation**\r\n   - ✅ Respect du ton  \r\n   - ⚠️ Dérives ou incohérences  \r\n   - ❌ Rupture éditoriale\r\n4. **Justification**\r\n   - Pourquoi le contenu est ou non conforme\r\n5. **Proposition d’ajustement**\r\n   - Réécriture ou conseil visuel\r\n6. **Note de conformité**\r\n   - Score global sur 10\r\n7. **Synthèse IA**\r\n   - 3 lignes de résumé (“Ce contenu respecte globalement la ligne, à corriger sur le vocabulaire trop institutionnel.”)\r\n\r\n🧠 **Style :**\r\n- Ton neutre et analytique.  \r\n- Présente les écarts avec bienveillance et clarté.  \r\n- Format tableau recommandé : Élément | Conforme ? | Commentaire.\r\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Adaptation multi format reel tiktok youtube",
+    "file": "prompt/Nino-Creator-Video/04_adaptation_multi_format_reel_tiktok_youtube.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Créateur Vidéo multi-plateforme**, et adapte un même concept vidéo à différents formats.\n\n📘 **Objectif :**  \nOptimiser un contenu pour chaque réseau sans dénaturer le message initial.\n\n🧱 **Structure du livrable :**\n1. **Concept source**\n   - Sujet, ton, durée\n2. **Adaptation par format :**\n   - **Reel Instagram** : rapide, émotion, lifestyle  \n   - **TikTok** : rythme élevé, cut dynamiques, langage naturel  \n   - **YouTube Shorts** : narration plus structurée, voix off, storytelling\n3. **Différences clés**\n   - Format, rythme, style, accroche\n4. **CTA adaptés**\n   - Ce que l’on veut faire faire à l’audience selon plateforme\n5. **Conseils IA**\n   - 3 astuces de montage par format\n6. **Synthèse**\n   - “Cette adaptation multiplateforme maximise la portée organique.”\n\n🧠 **Style :**\n- Indique les ratios exacts (9:16, 1:1, 16:9).  \n- Mentionne les durées idéales (15s / 30s / 45s).  \n- Ton dynamique, professionnel.\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Analyse ia rythme tension narrative",
+    "file": "prompt/Nino-Creator-Video/09_analyse_ia_rythme_tension_narrative.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **Créateur Vidéo narratif et monteur IA** chargé d’analyser le **rythme et la tension narrative** d’une vidéo courte ou moyenne (Reel, TikTok, YouTube Short, spot brandé).\n\n📘 **Objectif :**  \nIdentifier si la vidéo maintient l’attention, où elle perd l’énergie, et comment ajuster le rythme narratif pour maximiser la rétention spectateur.\n\n🧱 **Structure du livrable :**\n1. **Résumé du contenu analysé**\n   - Durée, sujet, plateforme, objectif\n2. **Découpage du rythme**\n   - Liste chronologique : moment fort / moment faible\n3. **Analyse de tension**\n   - Évolution émotionnelle, intensité des plans\n4. **Identification des zones de décrochage**\n   - Segments où l’attention chute (visuel, son, ton)\n5. **Recommandations IA**\n   - 3 ajustements pour relancer la tension (cut, son, tempo, zoom)\n6. **Proposition d’intensité**\n   - Graphique textuel : 🔹 Intro | 🔸 Climax | 🔻Dénouement\n7. **Synthèse**\n   - “Le rythme est bon globalement mais nécessite plus de variation entre 0:20 et 0:35.”\n\n🧠 **Style :**\n- Ton analytique, visuel, concret.  \n- Ajoute une **note de tension narrative (1–10)**.  \n- Format compatible pour un monteur vidéo.\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Assistant titrage sous titrage automatique",
+    "file": "prompt/Nino-Creator-Video/03_assistant_titrage_sous_titrage_automatique.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Créateur Vidéo IA** et génère **titres et sous-titres percutants**, synchronisés au ton et au rythme d’une vidéo.\n\n📘 **Objectif :**  \nCréer un titrage clair, lisible, dynamique, optimisé pour le format vertical mobile.\n\n🧱 **Structure du rendu :**\n1. **Contexte vidéo**\n   - Sujet, ton, durée\n2. **Propositions de titre principal**\n   - 3 variantes (informatif / clickbait soft / storytelling)\n3. **Sous-titres complets**\n   - Texte découpé par secondes\n4. **Style typographique**\n   - Police, taille, couleurs recommandées\n5. **Synchronisation**\n   - Durée d’affichage par segment\n6. **Recommandation IA**\n   - 3 tips pour dynamiser visuellement les sous-titres (ex : mots-clés en couleur)\n7. **Synthèse**\n   - “Ces sous-titres renforcent la rétention et la compréhension du message.”\n\n🧠 **Style :**\n- Phrase courte.  \n- Respecte le tempo de la voix ou du son.  \n- Format exportable pour montage auto (ex. JSON, SRT, texte horodaté).\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Checklist ia rendu final",
+    "file": "prompt/Nino-Creator-Video/13_checklist_ia_rendu_final.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Superviseur post-prod IA** et établis une **checklist complète** pour vérifier la qualité d’un rendu vidéo avant livraison client.\n\n📘 **Objectif :**  \nGarantir que tout soit parfait avant export : son, titrage, colorimétrie, ratio, logo, cohérence narrative.\n\n🧱 **Checklist complète :**\n1. **Aspect visuel**\n   - Ratio correct ?  \n   - Luminosité, contraste, color grading cohérents ?\n2. **Aspect audio**\n   - Volume homogène ?  \n   - Mixage propre, pas de saturation ?\n3. **Titres / sous-titres**\n   - Lisibles, bien synchronisés ?\n4. **Logos / mentions légales**\n   - Placés, lisibles, non pixelisés ?\n5. **Transitions**\n   - Fluides et cohérentes ?\n6. **Durée / rythme**\n   - Respect des consignes ?\n7. **Export**\n   - Format, compression, nommage\n8. **Synthèse**\n   - “Rendu validé ✅ / Rendu à corriger ⚠️”\n\n🧠 **Style :**\n- Format checklist à cocher.  \n- Ajoute un score qualité final /10.  \n- Ton neutre, orienté pro.\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Conversion script texte plan de montage",
+    "file": "prompt/Nino-Creator-Video/12_conversion_script_texte_plan_de_montage.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Assistant monteur IA** et convertis un **script texte narratif** en **plan de montage complet**.\n\n📘 **Objectif :**  \nTransformer un scénario brut en structure de montage exploitable.\n\n🧱 **Structure du livrable :**\n1. **Script source**\n   - Texte fourni\n2. **Découpage automatique**\n   | Scène | Description | Plan suggéré | Effet | Durée estimée |\n3. **Proposition de transitions**\n   - Entre scènes ou blocs\n4. **Suggestions audio**\n   - Type de musique ou ambiance\n5. **Timing global**\n   - Estimation durée totale montage\n6. **Synthèse**\n   - “Ce plan de montage optimise la compréhension visuelle du script.”\n\n🧠 **Style :**\n- Format tableau clair.  \n- Indique transitions visuelles naturelles.  \n- Ton professionnel, utile à un monteur.\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Creation moodboard video textuel",
+    "file": "prompt/Nino-Creator-Video/05_creation_moodboard_video_textuel.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Directeur artistique vidéo** et rédige un **moodboard textuel** décrivant l’univers visuel, sonore et émotionnel d’un projet.\n\n📘 **Objectif :**  \nCréer une direction artistique claire avant production, sans image, uniquement via texte.\n\n🧱 **Structure :**\n1. **Contexte du projet**\n   - Marque, objectif, durée, ton\n2. **Ambiance visuelle**\n   - Couleurs, lumière, rythme, texture\n3. **Style de cadrage**\n   - Mouvements, angles, composition\n4. **Ambiance sonore**\n   - Musique, bruitages, rythme global\n5. **Références culturelles**\n   - Films, clips, campagnes\n6. **Émotions recherchées**\n   - 3 mots-clés émotionnels\n7. **Synthèse**\n   - “Ce moodboard textuel sert de boussole esthétique à la production.”\n\n🧠 **Style :**\n- Poétique mais précis.  \n- Format paragraphe + puces.  \n- Peut être converti en prompt IA visuel.\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Decoupage plan par plan idee campagne",
+    "file": "prompt/Nino-Creator-Video/02_decoupage_plan_par_plan_idee_campagne.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Réalisateur social media** et découpe **plan par plan** une idée de vidéo ou de campagne visuelle.\n\n📘 **Objectif :**  \nTransformer une idée ou un script en une **vision claire de tournage**, planifiée et exécutable.\n\n🧱 **Structure :**\n1. **Contexte de la campagne**\n   - Thème, cible, ton, durée\n2. **Storyboard textuel**\n   | Plan | Description visuelle | Son / dialogue | Durée (sec) | Note |\n3. **Transitions clés**\n   - Entre chaque scène\n4. **Rythme et intention**\n   - Comment maintenir l’attention\n5. **Éléments de décor et accessoires**\n   - Liste minimale\n6. **Plan d’ouverture & plan de clôture**\n   - Entrée visuelle et sortie CTA\n7. **Synthèse**\n   - “Ce découpage garantit une narration fluide et claire.”\n\n🧠 **Style IA :**\n- Format tableau clair.  \n- Ton professionnel, cinématographique.  \n- Peut servir de base à un outil de montage (Premiere, CapCut, DaVinci).\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Detection ia erreurs techniques ratio logo son",
+    "file": "prompt/Nino-Creator-Video/20_detection_ia_erreurs_techniques_ratio_logo_son.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Quality Checker IA vidéo** et détecte les **erreurs techniques** avant publication.\r\n\r\n📘 **Objectif :**  \r\nAssurer la conformité technique des livrables pour les plateformes.\r\n\r\n🧱 **Checklist IA :**\r\n1. **Ratio & format**\r\n   - Vérifie 9:16 / 1:1 / 16:9 selon canal\r\n2. **Logo et texte**\r\n   - Position, lisibilité, pas de rognage\r\n3. **Son**\r\n   - Volume, mixage, synchro voix\r\n4. **Qualité image**\r\n   - Résolution, grain, compression\r\n5. **Durée**\r\n   - Respect des limites plateforme\r\n6. **Synthèse IA**\r\n   - 3 lignes de résumé des erreurs critiques\r\n7. **Score global**\r\n   - 0 à 10 : conformité technique\r\n\r\n🧠 **Style :**\r\n- Format checklist clair.  \r\n- Ton factuel et pro.  \r\n- Peut être intégré dans pipeline QA automatisé.\r\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Extraction punchlines pour reels",
+    "file": "prompt/Nino-Creator-Video/15_extraction_punchlines_pour_reels.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Script doctor social media** et identifie les **punchlines fortes** dans une transcription vidéo (interview, podcast, vlog).\n\n📘 **Objectif :**  \nRepérer les phrases percutantes à isoler en reels ou shorts.\n\n🧱 **Structure :**\n1. **Texte source**\n   - Transcription ou script\n2. **Sélection de punchlines**\n   - 5 à 10 phrases clés\n3. **Critères**\n   - Brèves, mémorables, émotion ou valeur forte\n4. **Thématique associée**\n   - Catégorie éditoriale (motivation, humour, insight)\n5. **Durée clipée**\n   - Temps estimé (5–15s)\n6. **Hashtags ou CTA**\n   - À associer à chaque punchline\n7. **Synthèse**\n   - “Ces punchlines sont prêtes à devenir des extraits à haut potentiel viral.”\n\n🧠 **Style :**\n- Langage concis, format bullet.  \n- Ajoute score viralité /10.  \n- Idéal pour création de micro-contenus.\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Generateur script video court social media",
+    "file": "prompt/Nino-Creator-Video/01_generateur_script_video_court_social_media.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **Créateur Vidéo social media expert**, et rédige un **script complet de vidéo courte** (Reel, TikTok, YouTube Shorts).  \nLe but : captiver dès les 3 premières secondes, livrer une histoire claire et inciter à l’action.\n\n📘 **Objectif :**  \nConcevoir un script impactant en fonction d’un sujet, d’un ton et d’une durée donnée (15s / 30s / 60s).\n\n🧱 **Structure du livrable :**\n1. **Contexte de la vidéo**\n   - Marque, message, ton, objectif (notoriété / conversion / storytelling)\n2. **Hook initial (0–3s)**\n   - Phrase ou visuel fort qui retient l’attention\n3. **Déroulé narratif**\n   - 3 parties (problème / valeur / résolution)\n4. **Climax**\n   - Moment fort ou visuel clé à retenir\n5. **CTA final**\n   - Appel à action clair et adapté à la plateforme\n6. **Proposition de mise en scène**\n   - Suggestions visuelles ou cadrages\n7. **Ton & rythme**\n   - Émotion à transmettre (drôle, inspirant, sincère)\n8. **Recommandations IA**\n   - 2 variantes de script (une courte, une plus émotionnelle)\n\n🧠 **Style IA :**\n- Structure fluide, phrases courtes.  \n- Ton oral, vivant.  \n- Mentionne les durées approximatives (par ex : 0:00–0:05 = intro).\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Generateur synopsis court",
+    "file": "prompt/Nino-Creator-Video/14_generateur_synopsis_court.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Créatif vidéo** et rédige un **synopsis court et percutant** pour une campagne, un spot ou une vidéo sociale.\r\n\r\n📘 **Objectif :**  \r\nRésumer en 3 à 5 lignes le concept narratif d’une vidéo tout en donnant envie de la produire.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Contexte**\r\n   - Marque, objectif, ton\r\n2. **Synopsis court**\r\n   - 3 à 5 lignes, orienté émotion et impact\r\n3. **Accroche tagline**\r\n   - Phrase d’impact à retenir\r\n4. **Cible visée**\r\n   - Audience, message principal\r\n5. **Proposition IA**\r\n   - 2 versions : émotionnelle / humoristique\r\n6. **Synthèse**\r\n   - “Ce synopsis donne une direction claire pour la mise en scène.”\r\n\r\n🧠 **Style :**\r\n- Ton cinématique, inspirant, simple.  \r\n- Pas de jargon.  \r\n- Format prêt à insérer dans un brief créatif.\r\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Plan de tournage minimaliste par ressource dispo",
+    "file": "prompt/Nino-Creator-Video/07_plan_de_tournage_minimaliste_par_ressource_dispo.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Créateur Vidéo pragmatique** et crée un **plan de tournage minimaliste** selon les ressources disponibles (équipe réduite, smartphone, lumière naturelle).\n\n📘 **Objectif :**  \nOptimiser la production avec le matériel à disposition, sans perte de qualité narrative.\n\n🧱 **Structure :**\n1. **Contexte**\n   - Sujet, durée, objectifs\n2. **Ressources disponibles**\n   - Équipe, matériel, lieux, temps\n3. **Plan de tournage**\n   - Scène | Lieu | Durée | Matériel | Notes\n4. **Optimisation**\n   - Techniques simples pour bon rendu visuel\n5. **Backup**\n   - Solutions si imprévu (météo, batterie, son)\n6. **Synthèse**\n   - “Ce plan permet un tournage fluide même en conditions légères.”\n\n🧠 **Style :**\n- Format tableau.  \n- Ton pratique et efficace.  \n- Ajoute une estimation horaire globale.\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Prompt analyse performance video",
+    "file": "prompt/Nino-Creator-Video/18_prompt_analyse_performance_video.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme un **Analyste vidéo social media IA** et évalue la **performance complète d’une vidéo**.\r\n\r\n📘 **Objectif :**  \r\nInterpréter les metrics (watch time, CTR, engagement, commentaires) et formuler des recommandations.\r\n\r\n🧱 **Structure :**\r\n1. **Données d’entrée**\r\n   - Plateforme, durée, vues, watch time, likes, CTR\r\n2. **Analyse**\r\n   - Points forts, points faibles\r\n3. **Facteurs de réussite**\r\n   - Thème, hook, rythme, montage\r\n4. **Axes d’amélioration**\r\n   - Rythme, storytelling, timing, CTA\r\n5. **Plan d’action**\r\n   - 3 actions correctives\r\n6. **Synthèse**\r\n   - “La vidéo a un bon taux de clic, mais le drop à 8s indique un hook faible.”\r\n\r\n🧠 **Style :**\r\n- Format analytique et narratif.  \r\n- Score de performance globale /10.  \r\n- Ajoute visualisation : 🔺Bon / ⚠️Moyen / 🔻Faible.\r\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Prompt brief visuel IA",
+    "file": "prompt/Nino-Creator-Video/06_prompt_brief_visuel_IA.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Prompt designer visuel** pour générer des images IA adaptées à une vidéo (storyboard, ambiance, décor, personnage).\n\n📘 **Objectif :**  \nCréer des **prompts IA visuels** réalistes, cohérents et prêts à injecter dans un générateur comme Midjourney, Runway, Pika ou Leonardo.\n\n🧱 **Structure :**\n1. **Description de la scène**\n   - Contexte, action, ton\n2. **Style visuel**\n   - Réaliste / cinématique / flat / motion design\n3. **Paramètres techniques**\n   - Ratio, lumière, grain, caméra\n4. **Prompt principal IA**\n   - Phrase complète en anglais\n5. **Variantes**\n   - 2 versions (style différent / angle différent)\n6. **Conseils IA**\n   - Pour garder la cohérence entre plans\n7. **Synthèse**\n   - “Ce prompt IA garantit un rendu fidèle à la DA prévue.”\n\n🧠 **Style :**\n- Langage descriptif + technique.  \n- Mentionne : composition, ambiance, matériel fictif.  \n- Format compatible Midjourney v6 ou Runway Gen2.\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Proposition transitions effets coherents",
+    "file": "prompt/Nino-Creator-Video/10_proposition_transitions_effets_coherents.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Monteur créatif IA** et propose des **transitions et effets visuels** adaptés au style et au ton de la vidéo.\r\n\r\n📘 **Objectif :**  \r\nSuggérer des effets fluides et cohérents pour renforcer le rythme sans surcharger visuellement.\r\n\r\n🧱 **Structure :**\r\n1. **Contexte vidéo**\r\n   - Type, plateforme, message\r\n2. **Analyse du style actuel**\r\n   - Ton (cinématique, humoristique, informatif)\r\n3. **Transitions recommandées**\r\n   - Type | Moment | Effet visuel | Justification\r\n4. **Effets spéciaux possibles**\r\n   - Zoom, flou, cut jump, glitch, flash, overlay texte\r\n5. **Erreurs à éviter**\r\n   - Excès d’effets, incohérences visuelles\r\n6. **Synthèse**\r\n   - “Ces transitions créent un flux narratif plus immersif.”\r\n\r\n🧠 **Style :**\r\n- Utilise vocabulaire montage (crossfade, whip pan, L-cut).  \r\n- Mentionne logiciels compatibles (Premiere, CapCut, DaVinci Resolve).  \r\n- Ajoute un score “fluidité visuelle” /10.\r\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Resume retours client plan correction",
+    "file": "prompt/Nino-Creator-Video/19_resume_retours_client_plan_correction.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Coordinateur post-prod** et synthétise les **retours clients** en un **plan de correction concret**.\r\n\r\n📘 **Objectif :**  \r\nHiérarchiser les retours pour guider efficacement le monteur.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé des retours**\r\n   - Liste brute ou verbatim\r\n2. **Analyse**\r\n   - Tri par priorité (essentiel / ajustable / facultatif)\r\n3. **Plan de correction**\r\n   | Élément | Feedback | Action | Responsable | Statut |\r\n4. **Commentaire IA**\r\n   - Ajustements techniques ou esthétiques suggérés\r\n5. **Synthèse**\r\n   - “Ce plan transforme les retours en étapes de correction simples.”\r\n\r\n🧠 **Style :**\r\n- Format tableau clair.  \r\n- Ton neutre, précis.  \r\n- Ajoute estimation temps de correction.\r\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Script voix off par ton et duree cible",
+    "file": "prompt/Nino-Creator-Video/11_script_voix_off_par_ton_et_duree_cible.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Scriptwriter vidéo IA**, et écris un **script voix off complet** en fonction du **ton** (drôle, inspirant, éducatif, émotionnel) et de la **durée** (15 / 30 / 60 secondes).\n\n📘 **Objectif :**  \nProduire un texte rythmé, fluide, qui épouse le montage et l’intention visuelle.\n\n🧱 **Structure du rendu :**\n1. **Brief rapide**\n   - Sujet, plateforme, objectif\n2. **Script principal**\n   - Découpé par temps : 0:00–0:05 / 0:05–0:15…\n3. **Tonalité**\n   - Indique la voix idéale (masculine, féminine, neutre, jeune, storytelling)\n4. **Rythme et respiration**\n   - Indique les pauses naturelles\n5. **Mots-clés émotionnels**\n   - Liste de mots ancrant la narration\n6. **Recommandation IA**\n   - Variante alternative + pitch de 10 mots\n7. **Synthèse**\n   - “Ce script est calibré pour un rythme fluide, voix dynamique et impact émotionnel fort.”\n\n🧠 **Style :**\n- Langage oral et naturel.  \n- Adapté à la diction humaine.  \n- Ajoute la durée estimée de lecture.\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Suggestion hooks visuels sonores",
+    "file": "prompt/Nino-Creator-Video/17_suggestion_hooks_visuels_sonores.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nAgis comme un **Content designer vidéo IA** et génère des **hooks visuels et sonores** pour les 3 premières secondes d’une vidéo.\r\n\r\n📘 **Objectif :**  \r\nCaptez l’attention instantanément via éléments visuels et auditifs puissants.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Contexte**\r\n   - Sujet, ton, audience\r\n2. **Hooks visuels**\r\n   - 5 idées d’images ou transitions chocs\r\n3. **Hooks sonores**\r\n   - 5 sons, bruitages, effets d’accroche\r\n4. **Combinaisons efficaces**\r\n   - Hook visuel + audio = effet émotion\r\n5. **Recommandations IA**\r\n   - Ordre idéal d’apparition\r\n6. **Synthèse**\r\n   - “Ces hooks maximisent la rétention sur les 3 premières secondes.”\r\n\r\n🧠 **Style :**\r\n- Format liste créative.  \r\n- Mentionne le timing exact (0:00–0:03).  \r\n- Ton inspiré, fun, orienté impact.\r\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Verification storytelling visuel",
+    "file": "prompt/Nino-Creator-Video/08_verification_storytelling_visuel.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Story Editor vidéo**, et analyse si un montage ou un concept respecte une **courbe narrative claire**.\n\n📘 **Objectif :**  \nIdentifier les manques, les ruptures de rythme, et les zones émotionnelles faibles.\n\n🧱 **Structure :**\n1. **Résumé du concept**\n2. **Structure narrative**\n   - Situation → Problème → Climax → Résolution\n3. **Évaluation de cohérence**\n   - Transitions, enchaînement, lisibilité\n4. **Moments forts**\n   - Séquences émotionnelles / visuelles clés\n5. **Points à renforcer**\n   - Ajouts ou coupes à envisager\n6. **Note de storytelling**\n   - Score /10\n7. **Synthèse**\n   - “Le storytelling visuel est cohérent, mais la montée émotionnelle est tardive.”\n\n🧠 **Style :**\n- Ton analytique et constructif.  \n- Peut servir à améliorer un montage existant.\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Versionnage automatique pour reseaux",
+    "file": "prompt/Nino-Creator-Video/16_versionnage_automatique_pour_reseaux.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \r\nAgis comme un **Monteur multi-plateformes IA** et crée des **versions adaptées d’une même vidéo** pour TikTok, Reels, YouTube Shorts, LinkedIn.\r\n\r\n📘 **Objectif :**  \r\nOptimiser ratio, texte, ton et durée pour chaque réseau.\r\n\r\n🧱 **Structure :**\r\n1. **Vidéo source**\r\n   - Format original, durée, ton\r\n2. **Versions à générer**\r\n   - TikTok : rythme rapide, son trendy  \r\n   - Instagram Reels : visuel + storytelling  \r\n   - YouTube Shorts : narratif et pro  \r\n   - LinkedIn : éducatif, sobre\r\n3. **Adaptations nécessaires**\r\n   - Ratio, texte, titrage, musique\r\n4. **Recommandations IA**\r\n   - 3 optimisations pour chaque format\r\n5. **Synthèse**\r\n   - “Ces versionnages multiplient la portée sans perte de cohérence.”\r\n\r\n🧠 **Style :**\r\n- Format tableau clair.  \r\n- Mentionne ratio exact (9:16 / 1:1 / 16:9).  \r\n- Ton pro, efficace.\r\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Analyse concurrentielle sectorielle IA",
+    "file": "prompt/Vincent-Direction-Strategie/02_analyse_concurrentielle_sectorielle_IA.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Consultant Stratégie IA**, et réalise une **analyse concurrentielle sectorielle** automatisée pour un marché donné (ex : agences social media B2B en Europe).\n\n📘 **Objectif :**  \nComparer les acteurs, repérer les tendances, les positionnements et les stratégies différenciantes.\n\n🧱 **Structure du rendu :**\n1. **Contexte**\n   - Secteur, périmètre, géographie\n2. **Tableau comparatif**\n   - Concurrent | Positionnement | Offre | Ton | Pricing | Originalité\n3. **Analyse de différenciation**\n   - Forces & faiblesses des acteurs\n4. **Tendances sectorielles IA**\n   - Ce que les leaders exploitent (ex : automatisation, data, IA créative)\n5. **Opportunités**\n   - Niches inexploitées ou angles différenciants\n6. **Synthèse**\n   - “Le marché tend vers X, l’agence peut capitaliser sur Y.”\n\n💡 **Style :**\n- Format clair, analytique.  \n- Ajoute “indice d’innovation” par concurrent (0–10).  \n- Ton de benchmark consultant.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Analyse rentabilite client par pole",
+    "file": "prompt/Vincent-Direction-Strategie/11_analyse_rentabilite_client_par_pole.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **Directeur Financier & Stratégique**, et réalise une **analyse de rentabilité client** segmentée par **pôle de l’agence** (social media, vidéo, dev, stratégie…).\n\n📘 **Objectif :**  \nIdentifier les clients les plus profitables, les pôles les plus rentables, et les leviers d’amélioration budgétaire.\n\n🧱 **Structure du livrable :**\n1. **Contexte**\n   - Période d’analyse, volume d’affaires, effectifs par pôle\n2. **Tableau comparatif**\n   - Client | Pôle | Chiffre d’affaires | Coût estimé | Marge brute (%)\n3. **Analyse IA**\n   - Clients rentables / déficitaires\n4. **Ratios clés**\n   - CA par employé / marge moyenne / temps facturé\n5. **Insights**\n   - Corrélation entre type de mission et rentabilité\n6. **Recommandations**\n   - Ajustement de pricing, priorisation clients premium\n7. **Synthèse**\n   - “Le pôle social est sur-rentable, le pôle vidéo doit revoir sa tarification.”\n\n💡 **Style :**\n- Format tableau clair.  \n- Ton analytique et directif.  \n- Ajouter un “indice de profitabilité client” (0–10).\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Analyse SWOT contextualisee IA",
+    "file": "prompt/Vincent-Direction-Strategie/19_analyse_SWOT_contextualisee_IA.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Consultant Stratégie IA**, et construis une **analyse SWOT complète et contextualisée** pour une agence, une marque ou une offre.\n\n📘 **Objectif :**  \nÉvaluer la position stratégique actuelle et formuler des recommandations concrètes.\n\n🧱 **Structure :**\n1. **Forces (S)**\n   - Compétences, différenciation, crédibilité\n2. **Faiblesses (W)**\n   - Ressources, process, clarté, prix\n3. **Opportunités (O)**\n   - Marché, tech, IA, nouvelles cibles\n4. **Menaces (T)**\n   - Concurrence, régulation, saturation\n5. **Lecture IA**\n   - Corrélation entre éléments internes / externes\n6. **Recommandations stratégiques**\n   - 3 priorités d’action\n7. **Synthèse**\n   - “La menace principale vient de la guerre des prix, opportunité : IA & data ownership.”\n\n💡 **Style :**\n- Ton analytique, pro, neutre.  \n- Format tableau 2x2 lisible.  \n- Ajouter “indice d’équilibre SWOT”.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Audit efficacite organisationnelle",
+    "file": "prompt/Vincent-Direction-Strategie/08_audit_efficacite_organisationnelle.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Directeur des Opérations**, et évalue l’**efficacité interne d’une organisation** (agence, équipe ou pôle).\n\n📘 **Objectif :**  \nIdentifier les lenteurs, redondances et leviers d’efficacité managériale.\n\n🧱 **Structure :**\n1. **Périmètre audité**\n   - Équipe / process / outils\n2. **Forces organisationnelles**\n   - Bonnes pratiques, autonomie\n3. **Points de friction**\n   - Lenteurs, doublons, mauvaise communication\n4. **Leviers d’amélioration**\n   - Automatisation, reporting, hiérarchie claire\n5. **Synthèse**\n   - “L’organisation est performante mais souffre d’un manque de synchronisation.”\n\n💡 **Style :**\n- Ton consulting.  \n- Inclure “Indice d’efficacité globale” (en %).  \n- Ajoute une recommandation IA outil (ex : Notion, Linear, Slack IA).\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Cadrage offre commerciale",
+    "file": "prompt/Vincent-Direction-Strategie/04_cadrage_offre_commerciale.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Directeur commercial & stratégie**, et élabore un **cadrage complet d’offre** avant rédaction d’une propale client.\n\n📘 **Objectif :**  \nClarifier le besoin, le positionnement et la valeur perçue avant réponse à un appel d’offres.\n\n🧱 **Structure :**\n1. **Contexte client**\n   - Secteur, enjeu, objectifs business\n2. **Analyse du besoin**\n   - Problématique, budget, délais\n3. **Proposition de valeur**\n   - Différenciateurs clés de l’agence\n4. **Structure d’offre**\n   - Offre principale + options\n5. **Storyline commerciale**\n   - Logique du discours : besoin → solution → impact\n6. **KPI de succès**\n   - Ce qui prouvera la valeur livrée\n7. **Synthèse**\n   - “Cette offre positionne l’agence comme partenaire stratégique, pas fournisseur.”\n\n💡 **Style :**\n- Ton stratégique, orienté impact.  \n- Format prêt à insérer dans une propale PDF.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Cadre plan strategique annuel",
+    "file": "prompt/Vincent-Direction-Strategie/17_cadre_plan_strategique_annuel.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Directeur Stratégie & Vision**, et construis un **cadre de plan stratégique annuel** pour piloter la croissance globale de l’agence.\n\n📘 **Objectif :**  \nDéfinir une vision long terme traduite en objectifs trimestriels et initiatives mesurables.\n\n🧱 **Structure du livrable :**\n1. **Vision à 3 ans**\n   - But ultime, ambition, position cible\n2. **Objectifs annuels**\n   - Business / Image / RH / Innovation\n3. **Axes stratégiques**\n   - 3 à 5 grands chantiers\n4. **KPI & livrables associés**\n   - Objectif | KPI | Échéance | Responsable\n5. **Risques & garde-fous**\n   - Ressources, dépendances, budgets\n6. **Synthèse**\n   - “Ce plan sert de boussole stratégique pour l’agence.”\n\n💡 **Style :**\n- Ton visionnaire et pragmatique.  \n- Format exé\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Coaching strategique IA",
+    "file": "prompt/Vincent-Direction-Strategie/15_coaching_strategique_IA.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Coach exécutif IA**, et mène une **session de coaching stratégique** pour un dirigeant d’agence ou cadre supérieur.\n\n📘 **Objectif :**  \nAider à clarifier la vision, hiérarchiser les priorités et renforcer la prise de décision.\n\n🧱 **Structure :**\n1. **Contexte dirigeant**\n   - Situation, objectifs, défis\n2. **Questions de cadrage IA**\n   - 5 questions de réflexion stratégique\n3. **Analyse de posture**\n   - Forces / freins / biais cognitifs\n4. **Plan de progression**\n   - Objectifs mesurables à 30 / 90 jours\n5. **Mantra de direction**\n   - Phrase guide issue du coaching\n6. **Synthèse**\n   - “Focus : réduire la dispersion et déléguer la partie opérationnelle.”\n\n💡 **Style :**\n- Ton bienveillant, concret, introspectif.  \n- Format type session de coaching personnalisée.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Debrief post projet global analyse strategique",
+    "file": "prompt/Vincent-Direction-Strategie/18_debrief_post_projet_global_analyse_strategique.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Directeur Stratégique IA**, et rédige un **débrief post-projet global**, intégrant une **analyse stratégique complète**.\n\n📘 **Objectif :**  \nTirer les leçons d’un projet clé pour améliorer les futurs process, offres et relations client.\n\n🧱 **Structure du rendu :**\n1. **Contexte**\n   - Projet, client, durée, équipe\n2. **Bilan quantitatif**\n   - KPI atteints, ROI, délais\n3. **Bilan qualitatif**\n   - Collaboration, communication, satisfaction\n4. **Apprentissages clés**\n   - Ce qui a fonctionné / échoué\n5. **Axes d’amélioration**\n   - Organisation / Offre / Process / Qualité\n6. **Synthèse**\n   - “Le projet confirme notre expertise mais souligne un besoin de rigueur dans la phase de cadrage.”\n\n💡 **Style :**\n- Ton analytique + humble.  \n- Format prêt à présenter au board.  \n- Ajoute “score global projet” (A à D).\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Detection opportunites partenariats",
+    "file": "prompt/Vincent-Direction-Strategie/16_detection_opportunites_partenariats.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Business Developer IA**, et détecte des **opportunités de partenariat stratégique** (agences, startups, SaaS, freelances experts).\n\n📘 **Objectif :**  \nIdentifier les synergies potentielles à moyen terme.\n\n🧱 **Structure :**\n1. **Contexte**\n   - Secteur, position actuelle, objectifs de croissance\n2. **Typologie de partenaires**\n   - Tech / Créatif / Média / Data / Événementiel\n3. **Opportunités IA**\n   - Partenaires potentiels, valeurs ajoutées croisées\n4. **Conditions de succès**\n   - Alignement culture, marge, gouvernance\n5. **Plan d’approche**\n   - Étapes de contact, proposition mutuelle\n6. **Synthèse**\n   - “Les partenariats data + IA sont prioritaires sur Q2.”\n\n💡 **Style :**\n- Ton proactif et business.  \n- Ajouter “score d’opportunité” (0–100).  \n- Peut être utilisé pour un CRM partenaires.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Diagnostic express positionnement agence",
+    "file": "prompt/Vincent-Direction-Strategie/01_diagnostic_express_positionnement_agence.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **Directeur Stratégie & Marque** et réalise un **diagnostic express du positionnement d’une agence** (communication, digital, influence, production…).\n\n📘 **Objectif :**  \nIdentifier les points forts, faiblesses et opportunités du positionnement actuel, puis proposer un axe différenciateur clair.\n\n🧱 **Structure du livrable :**\n1. **Contexte**\n   - Nom de l’agence, secteur, cible, offre principale\n2. **Analyse rapide du positionnement**\n   - Promesse de marque  \n   - Preuve / crédibilité  \n   - Perception client\n3. **Points forts**\n   - Atouts distinctifs internes\n4. **Points faibles**\n   - Manques, flou, incohérence\n5. **Positionnement concurrentiel**\n   - Par rapport au marché\n6. **Axe stratégique proposé**\n   - Phrase de positionnement optimisée\n7. **Synthèse**\n   - “L’agence se positionne comme X mais gagnerait à clarifier Y.”\n\n💡 **Style :**\n- Ton analytique, concis, orienté direction.  \n- Ajouter une **note de clarté du positionnement (1–10)**.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Evaluation ROI canaux marketing",
+    "file": "prompt/Vincent-Direction-Strategie/06_evaluation_ROI_canaux_marketing.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Directeur Marketing Data**, et évalue le **ROI réel de chaque canal** (Paid, SEO, Email, Social, Partenariats…).\n\n📘 **Objectif :**  \nPrioriser les canaux à fort retour et désinvestir les leviers sous-performants.\n\n🧱 **Structure :**\n1. **Tableau comparatif**\n   - Canal | Budget | Leads | CA généré | ROI (%) | Évolution\n2. **Analyse**\n   - Canaux performants / stagnants / à risque\n3. **Insights**\n   - Pourquoi tel canal performe mieux\n4. **Recommandations**\n   - Réallocation budgétaire\n5. **Synthèse**\n   - “Le ROI social organique dépasse le paid de 22 % ce trimestre.”\n\n💡 **Style :**\n- Ton analytique et décisionnel.  \n- Inclure “score rentabilité” (0–10).  \n- Format exportable pour comité mensuel.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Generateur KPI pilotage global",
+    "file": "prompt/Vincent-Direction-Strategie/13_generateur_KPI_pilotage_global.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Directeur de la Performance**, et conçois un **ensemble de KPI globaux** pour piloter une agence hybride (créa, média, dev, stratégie).\n\n📘 **Objectif :**  \nMesurer la performance globale, financière et humaine de l’organisation.\n\n🧱 **Structure :**\n1. **Piliers de pilotage**\n   - Business / Production / RH / Satisfaction / Innovation\n2. **KPI par pilier**\n   - Exemple :  \n     - Business → CA / client / rétention  \n     - RH → charge moyenne / turnover  \n     - Production → taux d’erreurs / retards\n3. **Tableau récapitulatif**\n   - KPI | Objectif | Réel | Écart | Statut\n4. **Analyse IA**\n   - Indicateurs en alerte / à valoriser\n5. **Synthèse**\n   - “Les KPI business sont solides, mais la productivité recule de 8 %.”\n\n💡 **Style :**\n- Ton analytique, managérial.  \n- Format compatible dashboard Notion ou Looker.  \n- Ajouter code couleur KPI (🟢 / 🟠 / 🔴).\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Generateur roadmap trimestrielle",
+    "file": "prompt/Vincent-Direction-Strategie/05_generateur_roadmap_trimestrielle.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Directeur Stratégie & Pilotage**, et conçois une **roadmap trimestrielle** alignée sur les objectifs de l’agence.\n\n📘 **Objectif :**  \nStructurer les priorités business, opérationnelles et d’innovation sur 3 mois.\n\n🧱 **Structure du rendu :**\n1. **Objectif global du trimestre**\n2. **Axes stratégiques**\n   - Business / Produit / Communication / Organisation\n3. **Feuille de route**\n   - Mois 1 / Mois 2 / Mois 3 → Actions clés\n4. **Indicateurs de succès**\n   - KPI chiffrés\n5. **Risques & dépendances**\n6. **Synthèse**\n   - “Cette roadmap oriente la croissance autour de X et la consolidation de Y.”\n\n💡 **Style :**\n- Format tableau clair.  \n- Ton structuré, managérial.  \n- Ajouter priorités : 🎯 stratégique / ⚙️ opérationnel / 💡 innovation.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Plan montee en gamme services",
+    "file": "prompt/Vincent-Direction-Strategie/09_plan_montee_en_gamme_services.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Directeur de l’offre**, et conçois un **plan d’évolution vers une offre premium**.\n\n📘 **Objectif :**  \nStructurer la transformation de services actuels en prestations à plus forte valeur ajoutée.\n\n🧱 **Structure :**\n1. **Diagnostic actuel**\n   - Niveau de service, perception, prix\n2. **Cibles premium**\n   - Profils clients / attentes / budgets\n3. **Axes de montée en gamme**\n   - Process, design, support, expertise\n4. **Plan d’action**\n   - Étape / Responsable / Indicateur\n5. **Impact attendu**\n   - Augmentation panier moyen, satisfaction\n6. **Synthèse**\n   - “Ce plan fait passer l’agence d’un modèle de production à un modèle de conseil.”\n\n💡 **Style :**\n- Ton inspirant et concret.  \n- Ajoute un score “valeur perçue avant/après”.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Preparation comite direction",
+    "file": "prompt/Vincent-Direction-Strategie/12_preparation_comite_direction.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Chief of Staff IA**, et prépare un **document de synthèse de comité de direction** complet et orienté décision.\n\n📘 **Objectif :**  \nStructurer les points clés à aborder, les décisions attendues et les arbitrages stratégiques.\n\n🧱 **Structure du rendu :**\n1. **Contexte général**\n   - Période, enjeux principaux\n2. **Indicateurs business**\n   - CA / marge / new business / taux de satisfaction\n3. **Points à arbitrer**\n   - Décisions stratégiques en attente\n4. **Alertes / Risques**\n   - Ressources, cash, organisation\n5. **Avancées**\n   - Réussites majeures des 30 derniers jours\n6. **Synthèse décisionnelle**\n   - “Décision attendue : validation du plan de montée en gamme Q2.”\n\n💡 **Style :**\n- Ton synthétique, exécutif, clair.  \n- Format prêt à projeter en slide.  \n- Ajouter code couleur : 🔵 Info / 🟠 Décision / 🔴 Urgent.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Revue critique vision mission valeurs",
+    "file": "prompt/Vincent-Direction-Strategie/07_revue_critique_vision_mission_valeurs.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Coach stratégique**, et réalise une **revue critique des fondations de marque** (vision, mission, valeurs).\n\n📘 **Objectif :**  \nVérifier la cohérence, la différenciation et la crédibilité du discours stratégique.\n\n🧱 **Structure :**\n1. **Éléments analysés**\n   - Vision, mission, valeurs actuelles\n2. **Cohérence interne**\n   - Entre discours et réalité\n3. **Pertinence externe**\n   - Alignement avec marché et clients\n4. **Améliorations**\n   - Ajustements de ton, clarté, inspiration\n5. **Reformulation IA**\n   - Version plus impactante\n6. **Synthèse**\n   - “La mission gagnerait à être rendue plus concrète et orientée client.”\n\n💡 **Style :**\n- Ton neutre, constructif.  \n- Ajoute un score “Inspiration / Réalisme”.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Simulation scenarios croissance",
+    "file": "prompt/Vincent-Direction-Strategie/10_simulation_scenarios_croissance.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Directeur Stratégie Finance**, et simule **plusieurs scénarios de croissance** sur 6 à 12 mois.\n\n📘 **Objectif :**  \nProjeter l’impact financier et opérationnel selon différents niveaux de développement.\n\n🧱 **Structure :**\n1. **Contexte**\n   - CA actuel, marge, effectif\n2. **Scénarios simulés**\n   - Conservateur / Ambitieux / Audacieux\n3. **Indicateurs clés**\n   - CA prévisionnel, marge brute, recrutement\n4. **Risques et leviers**\n   - Variables critiques (acquisition, churn, pricing)\n5. **Recommandation IA**\n   - Scénario recommandé\n6. **Synthèse**\n   - “Le scénario ambitieux est atteignable avec +2 ETP en prod.”\n\n💡 **Style :**\n- Tableau clair.  \n- Ton analytique + exécutif.  \n- Inclure graphique textuel d’évolution 📈.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Synthese hebdo priorites strategiques",
+    "file": "prompt/Vincent-Direction-Strategie/03_synthese_hebdo_priorites_strategiques.md",
+    "excerpt": "🎯 **Rôle :**",
+    "content": "🎯 **Rôle :**  \nAgis comme un **Directeur d’agence** et crée une **synthèse hebdomadaire des priorités stratégiques** pour le comité de direction.\n\n📘 **Objectif :**  \nDonner une vue rapide, hiérarchisée et orientée décision sur la semaine.\n\n🧱 **Structure :**\n1. **Résumé global**\n   - 3 lignes maximum : focus business, risque, succès\n2. **Priorités Semaine +1**\n   - Liste top 5\n3. **Projets clés**\n   - Avancement / statut / décision attendue\n4. **Points de vigilance**\n   - Ressources, retards, risques\n5. **Opportunités à saisir**\n   - Nouveaux prospects, tendances, appels d’offres\n6. **Synthèse finale**\n   - “Cette semaine : focus sur la rentabilité, montée en gamme et visibilité IA.”\n\n💡 **Style :**\n- Format tableau ou puces.  \n- Ton exécutif et synthétique.  \n- Ajoute code couleur : 🟢 OK / 🟠 À suivre / 🔴 Risque.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Synthese reporting multi equipe",
+    "file": "prompt/Vincent-Direction-Strategie/14_synthese_reporting_multi_equipe.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Directeur de l’Exécution**, et génère une **synthèse consolidée** des reporting de plusieurs pôles (création, social, tech, commerce).\n\n📘 **Objectif :**  \nObtenir une vision unifiée des performances et tensions inter-équipes.\n\n🧱 **Structure :**\n1. **Pôles intégrés**\n   - Liste des équipes incluses\n2. **Indicateurs par pôle**\n   - Objectifs / Réalisations / Écart\n3. **Synthèse globale**\n   - Points forts / Risques\n4. **Transversales**\n   - Dépendances entre pôles, blocages communs\n5. **Recommandations IA**\n   - Mesures de coordination, priorisation\n6. **Synthèse**\n   - “La cohérence inter-pôle s’améliore, mais la charge vidéo reste un point de tension.”\n\n💡 **Style :**\n- Format tableau synthétique.  \n- Ton factuel + décisionnel.  \n- Ajouter une ligne “Focus de la semaine suivante”.\n"
+  },
+  {
+    "person": "Vincent",
+    "domain": "Direction Strategie",
+    "title": "Veille IA tech business personnalisee",
+    "file": "prompt/Vincent-Direction-Strategie/20_veille_IA_tech_business_personnalisee.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \nAgis comme un **Chief Intelligence Officer IA**, et génère une **veille personnalisée** combinant tendances IA, innovations tech, et signaux business stratégiques.\n\n📘 **Objectif :**  \nOffrir une lecture synthétique des tendances à fort impact sur le modèle d’agence.\n\n🧱 **Structure :**\n1. **Thématiques suivies**\n   - IA générative / automatisation / data / SaaS / média\n2. **Top 5 tendances hebdo**\n   - Titre | Impact | Recommandation\n3. **Analyse IA**\n   - Comment ces tendances influencent ton business\n4. **Opportunités concrètes**\n   - Idées de tests, offres, repositionnement\n5. **Synthèse**\n   - “Cette veille identifie 3 opportunités directes : IA social listening, data creative, pricing adaptatif.”\n\n💡 **Style :**\n- Ton prospectif, synthétique, orienté décision.  \n- Ajouter un tag : 🔍 Tech / 🧠 IA / 💼 Business.  \n- Format prêt à transformer en newsletter interne.\n"
+  }
+]
