@@ -642,42 +642,10 @@
   {
     "person": "Nino",
     "domain": "Creator Video",
-    "title": "Adaptation multi format reel tiktok youtube",
-    "file": "prompt/Nino-Creator-Video/04_adaptation_multi_format_reel_tiktok_youtube.md",
-    "excerpt": "🎯 **Rôle :**",
-    "content": "🎯 **Rôle :**  \nAgis comme un **Créateur Vidéo multi-plateforme**, et adapte un même concept vidéo à différents formats.\n\n📘 **Objectif :**  \nOptimiser un contenu pour chaque réseau sans dénaturer le message initial.\n\n🧱 **Structure du livrable :**\n1. **Concept source**\n   - Sujet, ton, durée\n2. **Adaptation par format :**\n   - **Reel Instagram** : rapide, émotion, lifestyle  \n   - **TikTok** : rythme élevé, cut dynamiques, langage naturel  \n   - **YouTube Shorts** : narration plus structurée, voix off, storytelling\n3. **Différences clés**\n   - Format, rythme, style, accroche\n4. **CTA adaptés**\n   - Ce que l’on veut faire faire à l’audience selon plateforme\n5. **Conseils IA**\n   - 3 astuces de montage par format\n6. **Synthèse**\n   - “Cette adaptation multiplateforme maximise la portée organique.”\n\n🧠 **Style :**\n- Indique les ratios exacts (9:16, 1:1, 16:9).  \n- Mentionne les durées idéales (15s / 30s / 45s).  \n- Ton dynamique, professionnel.\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Analyse ia rythme tension narrative",
-    "file": "prompt/Nino-Creator-Video/09_analyse_ia_rythme_tension_narrative.md",
-    "excerpt": "🎯 **Rôle et mission :**",
-    "content": "🎯 **Rôle et mission :**  \nAgis comme un **Créateur Vidéo narratif et monteur IA** chargé d’analyser le **rythme et la tension narrative** d’une vidéo courte ou moyenne (Reel, TikTok, YouTube Short, spot brandé).\n\n📘 **Objectif :**  \nIdentifier si la vidéo maintient l’attention, où elle perd l’énergie, et comment ajuster le rythme narratif pour maximiser la rétention spectateur.\n\n🧱 **Structure du livrable :**\n1. **Résumé du contenu analysé**\n   - Durée, sujet, plateforme, objectif\n2. **Découpage du rythme**\n   - Liste chronologique : moment fort / moment faible\n3. **Analyse de tension**\n   - Évolution émotionnelle, intensité des plans\n4. **Identification des zones de décrochage**\n   - Segments où l’attention chute (visuel, son, ton)\n5. **Recommandations IA**\n   - 3 ajustements pour relancer la tension (cut, son, tempo, zoom)\n6. **Proposition d’intensité**\n   - Graphique textuel : 🔹 Intro | 🔸 Climax | 🔻Dénouement\n7. **Synthèse**\n   - “Le rythme est bon globalement mais nécessite plus de variation entre 0:20 et 0:35.”\n\n🧠 **Style :**\n- Ton analytique, visuel, concret.  \n- Ajoute une **note de tension narrative (1–10)**.  \n- Format compatible pour un monteur vidéo.\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
     "title": "Assistant titrage sous titrage automatique",
     "file": "prompt/Nino-Creator-Video/03_assistant_titrage_sous_titrage_automatique.md",
     "excerpt": "🎯 **Mission :**",
     "content": "🎯 **Mission :**  \nAgis comme un **Créateur Vidéo IA** et génère **titres et sous-titres percutants**, synchronisés au ton et au rythme d’une vidéo.\n\n📘 **Objectif :**  \nCréer un titrage clair, lisible, dynamique, optimisé pour le format vertical mobile.\n\n🧱 **Structure du rendu :**\n1. **Contexte vidéo**\n   - Sujet, ton, durée\n2. **Propositions de titre principal**\n   - 3 variantes (informatif / clickbait soft / storytelling)\n3. **Sous-titres complets**\n   - Texte découpé par secondes\n4. **Style typographique**\n   - Police, taille, couleurs recommandées\n5. **Synchronisation**\n   - Durée d’affichage par segment\n6. **Recommandation IA**\n   - 3 tips pour dynamiser visuellement les sous-titres (ex : mots-clés en couleur)\n7. **Synthèse**\n   - “Ces sous-titres renforcent la rétention et la compréhension du message.”\n\n🧠 **Style :**\n- Phrase courte.  \n- Respecte le tempo de la voix ou du son.  \n- Format exportable pour montage auto (ex. JSON, SRT, texte horodaté).\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Checklist ia rendu final",
-    "file": "prompt/Nino-Creator-Video/13_checklist_ia_rendu_final.md",
-    "excerpt": "🎯 **Rôle :**",
-    "content": "🎯 **Rôle :**  \nAgis comme un **Superviseur post-prod IA** et établis une **checklist complète** pour vérifier la qualité d’un rendu vidéo avant livraison client.\n\n📘 **Objectif :**  \nGarantir que tout soit parfait avant export : son, titrage, colorimétrie, ratio, logo, cohérence narrative.\n\n🧱 **Checklist complète :**\n1. **Aspect visuel**\n   - Ratio correct ?  \n   - Luminosité, contraste, color grading cohérents ?\n2. **Aspect audio**\n   - Volume homogène ?  \n   - Mixage propre, pas de saturation ?\n3. **Titres / sous-titres**\n   - Lisibles, bien synchronisés ?\n4. **Logos / mentions légales**\n   - Placés, lisibles, non pixelisés ?\n5. **Transitions**\n   - Fluides et cohérentes ?\n6. **Durée / rythme**\n   - Respect des consignes ?\n7. **Export**\n   - Format, compression, nommage\n8. **Synthèse**\n   - “Rendu validé ✅ / Rendu à corriger ⚠️”\n\n🧠 **Style :**\n- Format checklist à cocher.  \n- Ajoute un score qualité final /10.  \n- Ton neutre, orienté pro.\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Conversion script texte plan de montage",
-    "file": "prompt/Nino-Creator-Video/12_conversion_script_texte_plan_de_montage.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \nAgis comme un **Assistant monteur IA** et convertis un **script texte narratif** en **plan de montage complet**.\n\n📘 **Objectif :**  \nTransformer un scénario brut en structure de montage exploitable.\n\n🧱 **Structure du livrable :**\n1. **Script source**\n   - Texte fourni\n2. **Découpage automatique**\n   | Scène | Description | Plan suggéré | Effet | Durée estimée |\n3. **Proposition de transitions**\n   - Entre scènes ou blocs\n4. **Suggestions audio**\n   - Type de musique ou ambiance\n5. **Timing global**\n   - Estimation durée totale montage\n6. **Synthèse**\n   - “Ce plan de montage optimise la compréhension visuelle du script.”\n\n🧠 **Style :**\n- Format tableau clair.  \n- Indique transitions visuelles naturelles.  \n- Ton professionnel, utile à un monteur.\n"
   },
   {
     "person": "Nino",
@@ -690,114 +658,66 @@
   {
     "person": "Nino",
     "domain": "Creator Video",
-    "title": "Decoupage plan par plan idee campagne",
-    "file": "prompt/Nino-Creator-Video/02_decoupage_plan_par_plan_idee_campagne.md",
-    "excerpt": "🎯 **Rôle :**",
-    "content": "🎯 **Rôle :**  \nAgis comme un **Réalisateur social media** et découpe **plan par plan** une idée de vidéo ou de campagne visuelle.\n\n📘 **Objectif :**  \nTransformer une idée ou un script en une **vision claire de tournage**, planifiée et exécutable.\n\n🧱 **Structure :**\n1. **Contexte de la campagne**\n   - Thème, cible, ton, durée\n2. **Storyboard textuel**\n   | Plan | Description visuelle | Son / dialogue | Durée (sec) | Note |\n3. **Transitions clés**\n   - Entre chaque scène\n4. **Rythme et intention**\n   - Comment maintenir l’attention\n5. **Éléments de décor et accessoires**\n   - Liste minimale\n6. **Plan d’ouverture & plan de clôture**\n   - Entrée visuelle et sortie CTA\n7. **Synthèse**\n   - “Ce découpage garantit une narration fluide et claire.”\n\n🧠 **Style IA :**\n- Format tableau clair.  \n- Ton professionnel, cinématographique.  \n- Peut servir de base à un outil de montage (Premiere, CapCut, DaVinci).\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Detection ia erreurs techniques ratio logo son",
-    "file": "prompt/Nino-Creator-Video/20_detection_ia_erreurs_techniques_ratio_logo_son.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \r\nAgis comme un **Quality Checker IA vidéo** et détecte les **erreurs techniques** avant publication.\r\n\r\n📘 **Objectif :**  \r\nAssurer la conformité technique des livrables pour les plateformes.\r\n\r\n🧱 **Checklist IA :**\r\n1. **Ratio & format**\r\n   - Vérifie 9:16 / 1:1 / 16:9 selon canal\r\n2. **Logo et texte**\r\n   - Position, lisibilité, pas de rognage\r\n3. **Son**\r\n   - Volume, mixage, synchro voix\r\n4. **Qualité image**\r\n   - Résolution, grain, compression\r\n5. **Durée**\r\n   - Respect des limites plateforme\r\n6. **Synthèse IA**\r\n   - 3 lignes de résumé des erreurs critiques\r\n7. **Score global**\r\n   - 0 à 10 : conformité technique\r\n\r\n🧠 **Style :**\r\n- Format checklist clair.  \r\n- Ton factuel et pro.  \r\n- Peut être intégré dans pipeline QA automatisé.\r\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
     "title": "Extraction punchlines pour reels",
-    "file": "prompt/Nino-Creator-Video/15_extraction_punchlines_pour_reels.md",
+    "file": "prompt/Nino-Creator-Video/09_extraction_punchlines_pour_reels.md",
     "excerpt": "🎯 **Mission :**",
     "content": "🎯 **Mission :**  \nAgis comme un **Script doctor social media** et identifie les **punchlines fortes** dans une transcription vidéo (interview, podcast, vlog).\n\n📘 **Objectif :**  \nRepérer les phrases percutantes à isoler en reels ou shorts.\n\n🧱 **Structure :**\n1. **Texte source**\n   - Transcription ou script\n2. **Sélection de punchlines**\n   - 5 à 10 phrases clés\n3. **Critères**\n   - Brèves, mémorables, émotion ou valeur forte\n4. **Thématique associée**\n   - Catégorie éditoriale (motivation, humour, insight)\n5. **Durée clipée**\n   - Temps estimé (5–15s)\n6. **Hashtags ou CTA**\n   - À associer à chaque punchline\n7. **Synthèse**\n   - “Ces punchlines sont prêtes à devenir des extraits à haut potentiel viral.”\n\n🧠 **Style :**\n- Langage concis, format bullet.  \n- Ajoute score viralité /10.  \n- Idéal pour création de micro-contenus.\n"
   },
   {
     "person": "Nino",
     "domain": "Creator Video",
-    "title": "Generateur script video court social media",
-    "file": "prompt/Nino-Creator-Video/01_generateur_script_video_court_social_media.md",
+    "title": "Generateur  vidéo from images",
+    "file": "prompt/Nino-Creator-Video/04_Generateur _vidéo_from_images.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nTransformer une série d’images fixes réalistes en séquence vidéo fluide et cinématique.  \r\n\r\n📘 **Objectif :**  \r\nCréer des mouvements de caméra et transitions dynamiques à partir des images statiques du storyboard.  \r\n\r\n🧱 **Structure :**\r\n1. **Contexte du projet**  \r\n   Série d’images issues du storyboard (nomme les fichiers ou plans).  \r\n\r\n2. **Ambiance visuelle**  \r\n   Maintenir cohérence colorimétrique, profondeur de champ, lumière et tons.  \r\n\r\n3. **Style de cadrage**  \r\n   - Applique des **zoom-ins/outs**, **parallax effects**, **camera pans**, ou **Ken Burns effects**.  \r\n   - Simule la continuité d’un plan-séquence ou des fondus enchaînés doux.  \r\n\r\n4. **Ambiance sonore**  \r\n   - Ajoute une musique d’ambiance adaptée (instrumentale, orchestrale, ambient).  \r\n   - Synchronise sons et transitions (souffle du vent, bruits mécaniques, battements de cœur).  \r\n\r\n5. **Références culturelles**  \r\n   Rendu proche des transitions de clips Apple, Nike, ou des bandes-annonces A24.  \r\n\r\n6. **Émotions recherchées**  \r\n   Rythme émotionnel fluide — calme → tension → relâchement → émerveillement.  \r\n\r\n7. **Synthèse**  \r\n   > “Generate smooth cinematic video transitions between all still frames, add slow parallax and depth, maintain storytelling flow.”  \r\n\r\n🧠 **Style :**  \r\nCourt, dynamique, descriptif, compatible avec **Runway ML**, **Pika Labs**, ou **Kaiber AI**.\r\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Generateur images from storyboard",
+    "file": "prompt/Nino-Creator-Video/02_Generateur_images_from_storyboard.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nTransformer un storyboard textuel en séries d’images ultra-réalistes (1 image = 1 plan).  \r\n\r\n📘 **Objectif :**  \r\nCréer des visuels réalistes et cohérents à partir de la description narrative du storyboard précédent.  \r\n\r\n🧱 **Structure :**\r\n1. **Contexte du projet**  \r\n   Rappelle le synopsis général issu du storyboard.  \r\n\r\n2. **Ambiance visuelle**  \r\n   - Photorealism, ultra-detailed lighting, cinematic color grading (Kodak Vision3 / teal & orange).  \r\n   - Golden hour, volumetric light, soft shadows.  \r\n\r\n3. **Style de cadrage**  \r\n   - Reproduis les cadrages exacts mentionnés :  \r\n     *“Wide establishing shot of city skyline at dusk, cinematic depth of field”*  \r\n     *“Close-up on character’s eyes reflecting neon lights”*.  \r\n\r\n4. **Ambiance sonore (inspiration visuelle)**  \r\n   Ajoute des notes visuelles qui évoquent le son (vent, pluie, vibration de basse lumière).  \r\n\r\n5. **Références culturelles**  \r\n   Inspire-toi des réalisateurs et artistes visuels correspondants : Denis Villeneuve, Roger Deakins, Ridley Scott, Wes Anderson, etc.  \r\n\r\n6. **Émotions recherchées**  \r\n   Décris-les sous forme de lumière et posture : solitude = silhouette isolée, tension = ombres fortes, joie = tons chauds.  \r\n\r\n7. **Synthèse**  \r\n   Pour chaque plan du storyboard :  \r\n   > “Create a realistic cinematic still frame of [description], using natural lighting, filmic color palette, realistic textures, 8K resolution.”  \r\n\r\n🧠 **Style :**  \r\nLangage anglais, descriptif, orienté rendu photographique, pour IA visuelle (Bing Image Creator, Leonardo AI, etc).\r\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Générateur storyboard sujet",
+    "file": "prompt/Nino-Creator-Video/01_Générateur_storyboard_sujet.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nCréer un storyboard complet, structuré plan par plan, à partir d’un sujet ou d’une idée donnée.  \r\n\r\n📘 **Objectif :**  \r\nObtenir un plan séquence clair (nombre de plans, actions, cadrages, ambiance, émotions) prêt à servir de base à la création d’images réalistes.  \r\n\r\n🧱 **Structure :**\r\n1. **Contexte du projet**  \r\n   Décris le sujet principal : lieu, époque, personnages, objectif narratif.  \r\n   Exemple : “Un court-métrage montrant un astronaute perdu sur une planète rouge au lever du soleil.”  \r\n\r\n2. **Ambiance visuelle**  \r\n   Ton général (dramatique, poétique, énergique, intime).  \r\n   Couleurs dominantes, éclairage, textures, style d’image.  \r\n\r\n3. **Style de cadrage**  \r\n   Pour chaque plan : type de plan (large, moyen, serré, plongée, contre-plongée), angle de caméra, mouvement (panoramique, travelling, drone).  \r\n\r\n4. **Ambiance sonore**  \r\n   (Même si ce n’est pas encore pour la vidéo) — indique les sons, musiques, bruitages pour renforcer le ton visuel.  \r\n\r\n5. **Références culturelles**  \r\n   Cites des films, clips, séries ou peintres qui inspirent le rendu.  \r\n   Exemple : “Blade Runner 2049”, “Interstellar”, “Terrence Malick”.  \r\n\r\n6. **Émotions recherchées**  \r\n   Ce que doit ressentir le spectateur à chaque plan (espoir, tension, calme, émerveillement, peur).  \r\n\r\n7. **Synthèse**  \r\n   Résume chaque plan en une ligne :  \r\n   > Plan 1 – Description visuelle + émotion + cadrage.  \r\n   > Plan 2 – etc.  \r\n\r\n🧠 **Style :**  \r\nClair, cinématographique, narratif, structuré par scènes et plans numérotés. Langage visuel riche, mais concis.\r\n"
+  },
+  {
+    "person": "Nino",
+    "domain": "Creator Video",
+    "title": "Selection plans montage video",
+    "file": "prompt/Nino-Creator-Video/07_selection_plans_montage_video.md",
     "excerpt": "🎯 **Rôle et mission :**",
-    "content": "🎯 **Rôle et mission :**  \nAgis comme un **Créateur Vidéo social media expert**, et rédige un **script complet de vidéo courte** (Reel, TikTok, YouTube Shorts).  \nLe but : captiver dès les 3 premières secondes, livrer une histoire claire et inciter à l’action.\n\n📘 **Objectif :**  \nConcevoir un script impactant en fonction d’un sujet, d’un ton et d’une durée donnée (15s / 30s / 60s).\n\n🧱 **Structure du livrable :**\n1. **Contexte de la vidéo**\n   - Marque, message, ton, objectif (notoriété / conversion / storytelling)\n2. **Hook initial (0–3s)**\n   - Phrase ou visuel fort qui retient l’attention\n3. **Déroulé narratif**\n   - 3 parties (problème / valeur / résolution)\n4. **Climax**\n   - Moment fort ou visuel clé à retenir\n5. **CTA final**\n   - Appel à action clair et adapté à la plateforme\n6. **Proposition de mise en scène**\n   - Suggestions visuelles ou cadrages\n7. **Ton & rythme**\n   - Émotion à transmettre (drôle, inspirant, sincère)\n8. **Recommandations IA**\n   - 2 variantes de script (une courte, une plus émotionnelle)\n\n🧠 **Style IA :**\n- Structure fluide, phrases courtes.  \n- Ton oral, vivant.  \n- Mentionne les durées approximatives (par ex : 0:00–0:05 = intro).\n"
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **assistant monteur vidéo IA**.  \nTa mission : analyser un brief ou un script et sélectionner les plans les plus pertinents pour un montage court.\n\n📘 **Objectif :**  \nFaciliter le dérushage et réduire le temps de tri vidéo.\n\n🧱 **Structure du livrable :**\n1. **Contexte du projet**  \n   - Type de vidéo, objectif, durée finale  \n2. **Top 3 plans recommandés**  \n   - Description + moment clé + raison du choix  \n3. **Rythme de montage**  \n   - Estimation du tempo / transitions  \n4. **Suggestion de structure**\n   - Hook / corps / fin  \n5. **Conseils visuels**\n   - Cadrage, ambiance, son ou effets à prévoir  \n\n🧠 **Style IA :**  \n- Format clair et concis.  \n- Ton professionnel mais créatif.  \n- Évite les détails techniques trop profonds.\n\n"
   },
   {
     "person": "Nino",
     "domain": "Creator Video",
-    "title": "Generateur synopsis court",
-    "file": "prompt/Nino-Creator-Video/14_generateur_synopsis_court.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \r\nAgis comme un **Créatif vidéo** et rédige un **synopsis court et percutant** pour une campagne, un spot ou une vidéo sociale.\r\n\r\n📘 **Objectif :**  \r\nRésumer en 3 à 5 lignes le concept narratif d’une vidéo tout en donnant envie de la produire.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Contexte**\r\n   - Marque, objectif, ton\r\n2. **Synopsis court**\r\n   - 3 à 5 lignes, orienté émotion et impact\r\n3. **Accroche tagline**\r\n   - Phrase d’impact à retenir\r\n4. **Cible visée**\r\n   - Audience, message principal\r\n5. **Proposition IA**\r\n   - 2 versions : émotionnelle / humoristique\r\n6. **Synthèse**\r\n   - “Ce synopsis donne une direction claire pour la mise en scène.”\r\n\r\n🧠 **Style :**\r\n- Ton cinématique, inspirant, simple.  \r\n- Pas de jargon.  \r\n- Format prêt à insérer dans un brief créatif.\r\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Plan de tournage minimaliste par ressource dispo",
-    "file": "prompt/Nino-Creator-Video/07_plan_de_tournage_minimaliste_par_ressource_dispo.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \nAgis comme un **Créateur Vidéo pragmatique** et crée un **plan de tournage minimaliste** selon les ressources disponibles (équipe réduite, smartphone, lumière naturelle).\n\n📘 **Objectif :**  \nOptimiser la production avec le matériel à disposition, sans perte de qualité narrative.\n\n🧱 **Structure :**\n1. **Contexte**\n   - Sujet, durée, objectifs\n2. **Ressources disponibles**\n   - Équipe, matériel, lieux, temps\n3. **Plan de tournage**\n   - Scène | Lieu | Durée | Matériel | Notes\n4. **Optimisation**\n   - Techniques simples pour bon rendu visuel\n5. **Backup**\n   - Solutions si imprévu (météo, batterie, son)\n6. **Synthèse**\n   - “Ce plan permet un tournage fluide même en conditions légères.”\n\n🧠 **Style :**\n- Format tableau.  \n- Ton pratique et efficace.  \n- Ajoute une estimation horaire globale.\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Prompt analyse performance video",
-    "file": "prompt/Nino-Creator-Video/18_prompt_analyse_performance_video.md",
-    "excerpt": "🎯 **Rôle :**",
-    "content": "🎯 **Rôle :**  \r\nAgis comme un **Analyste vidéo social media IA** et évalue la **performance complète d’une vidéo**.\r\n\r\n📘 **Objectif :**  \r\nInterpréter les metrics (watch time, CTR, engagement, commentaires) et formuler des recommandations.\r\n\r\n🧱 **Structure :**\r\n1. **Données d’entrée**\r\n   - Plateforme, durée, vues, watch time, likes, CTR\r\n2. **Analyse**\r\n   - Points forts, points faibles\r\n3. **Facteurs de réussite**\r\n   - Thème, hook, rythme, montage\r\n4. **Axes d’amélioration**\r\n   - Rythme, storytelling, timing, CTA\r\n5. **Plan d’action**\r\n   - 3 actions correctives\r\n6. **Synthèse**\r\n   - “La vidéo a un bon taux de clic, mais le drop à 8s indique un hook faible.”\r\n\r\n🧠 **Style :**\r\n- Format analytique et narratif.  \r\n- Score de performance globale /10.  \r\n- Ajoute visualisation : 🔺Bon / ⚠️Moyen / 🔻Faible.\r\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Prompt brief visuel IA",
-    "file": "prompt/Nino-Creator-Video/06_prompt_brief_visuel_IA.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \nAgis comme un **Prompt designer visuel** pour générer des images IA adaptées à une vidéo (storyboard, ambiance, décor, personnage).\n\n📘 **Objectif :**  \nCréer des **prompts IA visuels** réalistes, cohérents et prêts à injecter dans un générateur comme Midjourney, Runway, Pika ou Leonardo.\n\n🧱 **Structure :**\n1. **Description de la scène**\n   - Contexte, action, ton\n2. **Style visuel**\n   - Réaliste / cinématique / flat / motion design\n3. **Paramètres techniques**\n   - Ratio, lumière, grain, caméra\n4. **Prompt principal IA**\n   - Phrase complète en anglais\n5. **Variantes**\n   - 2 versions (style différent / angle différent)\n6. **Conseils IA**\n   - Pour garder la cohérence entre plans\n7. **Synthèse**\n   - “Ce prompt IA garantit un rendu fidèle à la DA prévue.”\n\n🧠 **Style :**\n- Langage descriptif + technique.  \n- Mentionne : composition, ambiance, matériel fictif.  \n- Format compatible Midjourney v6 ou Runway Gen2.\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Proposition transitions effets coherents",
-    "file": "prompt/Nino-Creator-Video/10_proposition_transitions_effets_coherents.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \r\nAgis comme un **Monteur créatif IA** et propose des **transitions et effets visuels** adaptés au style et au ton de la vidéo.\r\n\r\n📘 **Objectif :**  \r\nSuggérer des effets fluides et cohérents pour renforcer le rythme sans surcharger visuellement.\r\n\r\n🧱 **Structure :**\r\n1. **Contexte vidéo**\r\n   - Type, plateforme, message\r\n2. **Analyse du style actuel**\r\n   - Ton (cinématique, humoristique, informatif)\r\n3. **Transitions recommandées**\r\n   - Type | Moment | Effet visuel | Justification\r\n4. **Effets spéciaux possibles**\r\n   - Zoom, flou, cut jump, glitch, flash, overlay texte\r\n5. **Erreurs à éviter**\r\n   - Excès d’effets, incohérences visuelles\r\n6. **Synthèse**\r\n   - “Ces transitions créent un flux narratif plus immersif.”\r\n\r\n🧠 **Style :**\r\n- Utilise vocabulaire montage (crossfade, whip pan, L-cut).  \r\n- Mentionne logiciels compatibles (Premiere, CapCut, DaVinci Resolve).  \r\n- Ajoute un score “fluidité visuelle” /10.\r\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Resume retours client plan correction",
-    "file": "prompt/Nino-Creator-Video/19_resume_retours_client_plan_correction.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \r\nAgis comme un **Coordinateur post-prod** et synthétise les **retours clients** en un **plan de correction concret**.\r\n\r\n📘 **Objectif :**  \r\nHiérarchiser les retours pour guider efficacement le monteur.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé des retours**\r\n   - Liste brute ou verbatim\r\n2. **Analyse**\r\n   - Tri par priorité (essentiel / ajustable / facultatif)\r\n3. **Plan de correction**\r\n   | Élément | Feedback | Action | Responsable | Statut |\r\n4. **Commentaire IA**\r\n   - Ajustements techniques ou esthétiques suggérés\r\n5. **Synthèse**\r\n   - “Ce plan transforme les retours en étapes de correction simples.”\r\n\r\n🧠 **Style :**\r\n- Format tableau clair.  \r\n- Ton neutre, précis.  \r\n- Ajoute estimation temps de correction.\r\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Script voix off par ton et duree cible",
-    "file": "prompt/Nino-Creator-Video/11_script_voix_off_par_ton_et_duree_cible.md",
-    "excerpt": "🎯 **Rôle :**",
-    "content": "🎯 **Rôle :**  \nAgis comme un **Scriptwriter vidéo IA**, et écris un **script voix off complet** en fonction du **ton** (drôle, inspirant, éducatif, émotionnel) et de la **durée** (15 / 30 / 60 secondes).\n\n📘 **Objectif :**  \nProduire un texte rythmé, fluide, qui épouse le montage et l’intention visuelle.\n\n🧱 **Structure du rendu :**\n1. **Brief rapide**\n   - Sujet, plateforme, objectif\n2. **Script principal**\n   - Découpé par temps : 0:00–0:05 / 0:05–0:15…\n3. **Tonalité**\n   - Indique la voix idéale (masculine, féminine, neutre, jeune, storytelling)\n4. **Rythme et respiration**\n   - Indique les pauses naturelles\n5. **Mots-clés émotionnels**\n   - Liste de mots ancrant la narration\n6. **Recommandation IA**\n   - Variante alternative + pitch de 10 mots\n7. **Synthèse**\n   - “Ce script est calibré pour un rythme fluide, voix dynamique et impact émotionnel fort.”\n\n🧠 **Style :**\n- Langage oral et naturel.  \n- Adapté à la diction humaine.  \n- Ajoute la durée estimée de lecture.\n"
+    "title": "Storyboard automatise",
+    "file": "prompt/Nino-Creator-Video/08_storyboard_automatise.md",
+    "excerpt": "🎯 **Rôle et mission :**",
+    "content": "🎯 **Rôle et mission :**  \nAgis comme un **réalisateur IA**.  \nÀ partir d’un script ou d’une idée, conçois un storyboard court et visuel.\n\n📘 **Objectif :**  \nOffrir une base claire pour la pré-production ou un brief client.\n\n🧱 **Structure du livrable :**\n1. **Résumé de la vidéo**\n   - Sujet, durée, message  \n2. **Storyboard (5 plans max)**\n   - Plan | Durée | Angle | Ambiance | Texte à l’écran  \n3. **Climax visuel**\n   - Moment fort à marquer  \n4. **CTA final**\n   - Ce que doit retenir le spectateur  \n5. **Suggestion de style visuel**\n   - Ex : caméra fixe, plan séquence, ton inspirant  \n\n🧠 **Style IA :**  \n- Tableau Markdown clair.  \n- Style concis, inspirant et actionnable.\n\n"
   },
   {
     "person": "Nino",
     "domain": "Creator Video",
     "title": "Suggestion hooks visuels sonores",
-    "file": "prompt/Nino-Creator-Video/17_suggestion_hooks_visuels_sonores.md",
+    "file": "prompt/Nino-Creator-Video/10_suggestion_hooks_visuels_sonores.md",
     "excerpt": "🎯 **Mission :**",
     "content": "🎯 **Mission :**  \r\nAgis comme un **Content designer vidéo IA** et génère des **hooks visuels et sonores** pour les 3 premières secondes d’une vidéo.\r\n\r\n📘 **Objectif :**  \r\nCaptez l’attention instantanément via éléments visuels et auditifs puissants.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Contexte**\r\n   - Sujet, ton, audience\r\n2. **Hooks visuels**\r\n   - 5 idées d’images ou transitions chocs\r\n3. **Hooks sonores**\r\n   - 5 sons, bruitages, effets d’accroche\r\n4. **Combinaisons efficaces**\r\n   - Hook visuel + audio = effet émotion\r\n5. **Recommandations IA**\r\n   - Ordre idéal d’apparition\r\n6. **Synthèse**\r\n   - “Ces hooks maximisent la rétention sur les 3 premières secondes.”\r\n\r\n🧠 **Style :**\r\n- Format liste créative.  \r\n- Mentionne le timing exact (0:00–0:03).  \r\n- Ton inspiré, fun, orienté impact.\r\n"
   },
   {
     "person": "Nino",
     "domain": "Creator Video",
-    "title": "Verification storytelling visuel",
-    "file": "prompt/Nino-Creator-Video/08_verification_storytelling_visuel.md",
-    "excerpt": "🎯 **Rôle :**",
-    "content": "🎯 **Rôle :**  \nAgis comme un **Story Editor vidéo**, et analyse si un montage ou un concept respecte une **courbe narrative claire**.\n\n📘 **Objectif :**  \nIdentifier les manques, les ruptures de rythme, et les zones émotionnelles faibles.\n\n🧱 **Structure :**\n1. **Résumé du concept**\n2. **Structure narrative**\n   - Situation → Problème → Climax → Résolution\n3. **Évaluation de cohérence**\n   - Transitions, enchaînement, lisibilité\n4. **Moments forts**\n   - Séquences émotionnelles / visuelles clés\n5. **Points à renforcer**\n   - Ajouts ou coupes à envisager\n6. **Note de storytelling**\n   - Score /10\n7. **Synthèse**\n   - “Le storytelling visuel est cohérent, mais la montée émotionnelle est tardive.”\n\n🧠 **Style :**\n- Ton analytique et constructif.  \n- Peut servir à améliorer un montage existant.\n"
-  },
-  {
-    "person": "Nino",
-    "domain": "Creator Video",
-    "title": "Versionnage automatique pour reseaux",
-    "file": "prompt/Nino-Creator-Video/16_versionnage_automatique_pour_reseaux.md",
-    "excerpt": "🎯 **Rôle :**",
-    "content": "🎯 **Rôle :**  \r\nAgis comme un **Monteur multi-plateformes IA** et crée des **versions adaptées d’une même vidéo** pour TikTok, Reels, YouTube Shorts, LinkedIn.\r\n\r\n📘 **Objectif :**  \r\nOptimiser ratio, texte, ton et durée pour chaque réseau.\r\n\r\n🧱 **Structure :**\r\n1. **Vidéo source**\r\n   - Format original, durée, ton\r\n2. **Versions à générer**\r\n   - TikTok : rythme rapide, son trendy  \r\n   - Instagram Reels : visuel + storytelling  \r\n   - YouTube Shorts : narratif et pro  \r\n   - LinkedIn : éducatif, sobre\r\n3. **Adaptations nécessaires**\r\n   - Ratio, texte, titrage, musique\r\n4. **Recommandations IA**\r\n   - 3 optimisations pour chaque format\r\n5. **Synthèse**\r\n   - “Ces versionnages multiplient la portée sans perte de cohérence.”\r\n\r\n🧠 **Style :**\r\n- Format tableau clair.  \r\n- Mentionne ratio exact (9:16 / 1:1 / 16:9).  \r\n- Ton pro, efficace.\r\n"
+    "title": "Workflow storyboard images vidéo",
+    "file": "prompt/Nino-Creator-Video/06_Workflow_storyboard_images_vidéo.md",
+    "excerpt": "🎯 **Mission :**",
+    "content": "🎯 **Mission :**  \r\nGénérer automatiquement un **storyboard complet**, créer **les images réalistes correspondantes**, puis **monter la vidéo finale** à partir de ces images.  \r\n\r\n📘 **Objectif :**  \r\nAutomatiser le processus créatif complet pour un projet vidéo sous Premiere Pro à partir d’un seul sujet.  \r\n\r\n🧱 **Structure :**\r\n1. **Contexte du projet**  \r\n   Sujet : (à remplacer par ton idée, ex. “Un skateur traversant une ville futuriste la nuit”).  \r\n\r\n2. **Ambiance visuelle**  \r\n   Décris ton style global : réaliste, cinématique, inspiration film d’auteur, science-fiction, etc.  \r\n\r\n3. **Style de cadrage**  \r\n   Le prompt doit générer :  \r\n   - un **storyboard narratif** (5 à 10 plans max)  \r\n   - pour chaque plan, une **image réaliste cinématique**  \r\n   - puis les **mouvements de caméra fluides** pour le montage final.  \r\n\r\n4. **Ambiance sonore**  \r\n   - Génération d’une ambiance sonore immersive : vent, voix, musique, sound design émotionnel.  \r\n\r\n5. **Références culturelles**  \r\n   Mélange des styles visuels de *Blade Runner 2049*, *Inception*, *Drive*, ou *The Revenant*.  \r\n\r\n6. **Émotions recherchées**  \r\n   Immersion, poésie visuelle, intensité cinématique, beauté du détail.  \r\n\r\n7. **Synthèse**  \r\n   > “From the given theme, automatically create:  \r\n   > 1️⃣ a cinematic storyboard with shot descriptions,  \r\n   > 2️⃣ realistic photo-style images for each shot,  \r\n   > 3️⃣ a smooth cinematic video with coherent transitions and sound atmosphere.”  \r\n\r\n🧠 **Style :**  \r\nPrompt hybride tout-en-un, clair, en anglais pour IA visuelles, mais logique de production vidéo.  \r\nAdapté pour **Runway Gen-3**, **Pika Labs**, **Kaiber AI**, ou **Bing + Premiere Pro combo**.\r\n"
   },
   {
     "person": "Vincent",
