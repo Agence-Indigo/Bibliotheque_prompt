@@ -26,8 +26,37 @@ const els = {
   closeDialog: document.getElementById('closeDialog'),
   copyBtn: document.getElementById('copyBtn'),
   openChatGPTBtn: document.getElementById('openChatGPTBtn'),
+  openPerplexityBtn: document.getElementById('openPerplexityBtn'),
+  openGeminiBtn: document.getElementById('openGeminiBtn'),
+  openClaudeBtn: document.getElementById('openClaudeBtn'),
   openFileBtn: document.getElementById('openFileBtn'),
 };
+
+// current prompt content shown in dialog (used by copy + open buttons)
+let currentDialogContent = '';
+
+// Attach handlers to AI open buttons so they copy the prompt first, then open the target
+function attachOpenWithCopy(el) {
+  if (!el) return;
+  el.addEventListener('click', async (e) => {
+    // Ensure we copy the latest prompt before opening
+    try {
+      e.preventDefault();
+      if (currentDialogContent) await copyText(currentDialogContent);
+      toast('Prompt copié');
+    } catch (err) {
+      console.error('Copy failed', err);
+    }
+    // Open target in a new tab/window
+    try { window.open(el.href, '_blank'); } catch (err) { location.href = el.href; }
+  });
+}
+
+// wire once
+attachOpenWithCopy(els.openChatGPTBtn);
+attachOpenWithCopy(els.openPerplexityBtn);
+attachOpenWithCopy(els.openGeminiBtn);
+attachOpenWithCopy(els.openClaudeBtn);
 
 // Fetch manifest and hydrate UI
 async function load() {
@@ -109,6 +138,10 @@ function openDialog(p) {
   const html = window.marked ? window.marked.parse(p.content) : `<pre>${escapeHtml(p.content)}</pre>`;
   els.dialogContent.innerHTML = html;
   els.openChatGPTBtn.href = 'https://chat.openai.com/';
+  // Add other assistant links
+  if (els.openPerplexityBtn) els.openPerplexityBtn.href = 'https://www.perplexity.ai/';
+  if (els.openGeminiBtn) els.openGeminiBtn.href = 'https://gemini.google.com/?hl=fr';
+  if (els.openClaudeBtn) els.openClaudeBtn.href = 'https://claude.ai/new';
   els.openFileBtn.href = p.file;
   els.copyBtn.onclick = async () => { await copyText(p.content); toast('Prompt copié'); };
   if (!els.dialog.open) els.dialog.showModal();
