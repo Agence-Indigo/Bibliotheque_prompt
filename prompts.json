@@ -522,14 +522,6 @@
   {
     "person": "Lea",
     "domain": "Community Manager",
-    "title": "Debrief hebdo performance contenus",
-    "file": "prompt/Lea-Community-Manager/12_debrief_hebdo_performance_contenus.md",
-    "excerpt": "🎯 **Rôle :**",
-    "content": "🎯 **Rôle :**  \r\nAgis comme **Community Manager analytique**, et rédige un **débrief hebdomadaire clair et visuel** sur les performances des publications.\r\n\r\n📘 **Objectif :**  \r\nSynthétiser les résultats de la semaine, identifier les tendances et proposer des pistes d’amélioration rapide.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé global**\r\n   - Portée, engagement, croissance communauté\r\n2. **Top 3 contenus**\r\n   - Post | Performance | Insights\r\n3. **Contenus faibles**\r\n   - Analyse des causes (moment, format, message)\r\n4. **Tendances observées**\r\n   - Ce que la communauté aime / rejette\r\n5. **Recommandations**\r\n   - 3 actions à tester la semaine suivante\r\n6. **Synthèse**\r\n   - “Cette semaine, le format vidéo + ton humoristique performe 30 % mieux.”\r\n\r\n🧠 **Style :**\r\n- Clair, visuel, orienté action.  \r\n- Format tableau + mini paragraphes.  \r\n- Ajoute un emoji performance (🔥, 📈, 💤).\r\n"
-  },
-  {
-    "person": "Lea",
-    "domain": "Community Manager",
     "title": "Detecteur opportunites tendances social media",
     "file": "prompt/Lea-Community-Manager/03_detecteur_opportunites_tendances_social_media.md",
     "excerpt": "🎯 **Rôle :**",
@@ -602,14 +594,6 @@
   {
     "person": "Lea",
     "domain": "Community Manager",
-    "title": "Redacteur bio accroche profil optimise",
-    "file": "prompt/Lea-Community-Manager/11_redacteur_bio_accroche_profil_optimise.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager branding expert**, et rédige une **bio ou accroche de profil optimisée** pour les plateformes (Instagram, TikTok, LinkedIn, X).\r\n\r\n📘 **Objectif :**  \r\nCréer une bio courte, percutante, alignée avec la personnalité de la marque et optimisée SEO/social.\r\n\r\n🧱 **Structure du rendu :**\r\n1. **Profil analysé**\r\n   - Marque, secteur, audience\r\n2. **Analyse actuelle**\r\n   - Points forts / faibles de la bio existante\r\n3. **Propositions IA**\r\n   - Version courte (80 caractères max)  \r\n   - Version moyenne (150 caractères)  \r\n   - Version longue (250 caractères)\r\n4. **Tonalité**\r\n   - Variante selon ton : pro, décalé, expert, chaleureux\r\n5. **Mots-clés stratégiques**\r\n   - 5 à 10 keywords à intégrer\r\n6. **CTA de bio**\r\n   - Lien / phrase d’action\r\n7. **Synthèse**\r\n   - “Cette bio incarne la personnalité de la marque tout en maximisant la conversion profil → clic.”\r\n\r\n🧠 **Style :**\r\n- Phrase courte, rythmée, forte.  \r\n- Utilise emojis ciblés si cohérent.  \r\n- Adapte selon plateforme et audience.\r\n"
-  },
-  {
-    "person": "Lea",
-    "domain": "Community Manager",
     "title": "Reponses moderation bienveillantes",
     "file": "prompt/Lea-Community-Manager/08_reponses_moderation_bienveillantes.md",
     "excerpt": "🎯 **Rôle et mission :**",
@@ -622,14 +606,6 @@
     "file": "prompt/Lea-Community-Manager/05_rewriting_optimise_engagement.md",
     "excerpt": "🎯 **Rôle :**",
     "content": "🎯 **Rôle :**  \r\nAgis comme **Community Manager experte en copywriting**, et **réécris un post existant** pour maximiser l’engagement (likes, commentaires, partages, temps de lecture).\r\n\r\n📘 **Objectif :**  \r\nTransformer un texte standard en publication performante selon les bonnes pratiques social media.\r\n\r\n🧱 **Structure :**\r\n1. **Texte original**\r\n   - À insérer ou coller\r\n2. **Analyse des faiblesses**\r\n   - Titre peu impactant, CTA flou, ton plat…\r\n3. **Nouvelle version optimisée**\r\n   - Accroche percutante  \r\n   - Corps fluide et storytelling  \r\n   - CTA clair et engageant\r\n4. **Explication des changements**\r\n   - Pourquoi chaque ajustement améliore la performance\r\n5. **Tests alternatifs**\r\n   - 2 versions A/B de la première phrase\r\n6. **Hashtags suggérés**\r\n   - 10 hashtags IA pertinents selon objectif\r\n7. **Synthèse**\r\n   - Résumé des leviers d’engagement ajoutés\r\n\r\n🧠 **Style IA :**\r\n- Ton naturel, conversationnel et humain.  \r\n- Adapte à chaque plateforme.  \r\n- Objectif : obtenir + de réactions sans perdre la voix de marque.\r\n"
-  },
-  {
-    "person": "Lea",
-    "domain": "Community Manager",
-    "title": "Synthese retours communautes",
-    "file": "prompt/Lea-Community-Manager/17_synthese_retours_communautes.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \r\nAgis comme **Community Manager à l’écoute**, et synthétise les **retours, commentaires et feedbacks** de la communauté sur une période donnée.\r\n\r\n📘 **Objectif :**  \r\nIdentifier les tendances d’opinion, les points de satisfaction et d’insatisfaction, et orienter les futures communications.\r\n\r\n🧱 **Structure :**\r\n1. **Volume et sources**\r\n   - Nombre de commentaires, messages, plateformes\r\n2. **Analyse qualitative**\r\n   - Thèmes dominants, émotions, tonalité\r\n3. **Points positifs**\r\n   - Ce que la communauté apprécie\r\n4. **Points négatifs / irritants**\r\n   - Réclamations, confusions, critiques\r\n5. **Propositions IA**\r\n   - 3 actions concrètes d’amélioration\r\n6. **Synthèse exécutive**\r\n   - 5 lignes à transmettre à la direction\r\n\r\n🧠 **Style :**\r\n- Ton neutre, synthétique.  \r\n- Inclure pourcentage de tonalité (70 % positif, 20 % neutre, 10 % négatif).  \r\n- Objectif : insight communautaire clair.\r\n"
   },
   {
     "person": "Lea",
