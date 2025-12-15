@@ -178,14 +178,6 @@
   {
     "person": "Camille",
     "domain": "social media manager",
-    "title": "Analyse des retards projet et plan action",
-    "file": "prompt/Camille-social-media-manager/14_analyse_des_retards_projet_et_plan_action.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \r\nAgis comme un **chef de projet social media** et produis une **analyse complète des retards de production** avec plan d’action correctif.  \r\nTon rôle est d’évaluer les causes, les impacts et les mesures à mettre en place pour remettre le projet sur les rails.\r\n\r\n📘 **Objectif :**  \r\nFournir un document clair, orienté solution, qui rassure le client et redonne le cap à l’équipe.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé du contexte**\r\n   - Projet, objectif, phase concernée\r\n2. **Liste des retards**\r\n   - Tâche | Responsable | Retard (jours) | Impact\r\n3. **Analyse des causes**\r\n   - Internes (ressources, validation, priorisation)  \r\n   - Externes (client, outils, dépendances)\r\n4. **Conséquences**\r\n   - Impact sur budget, planning, qualité\r\n5. **Plan d’action correctif**\r\n   - Mesures immédiates, ajustements de priorités, nouvelle timeline\r\n6. **Prévention**\r\n   - Leçons apprises et protocoles de suivi à instaurer\r\n7. **Synthèse exécutive**\r\n   - Résumé de 5 lignes à communiquer à la direction / client\r\n\r\n🧠 **Style :**\r\n- Structuré, factuel, orienté gestion de projet.  \r\n- Utilise un ton proactif (“Nous avons identifié, nous mettons en place…”).  \r\n- Ajoute des visuels de priorisation si possible (🟥 Urgent, 🟨 Moyen, 🟩 Stable).\r\n"
-  },
-  {
-    "person": "Camille",
-    "domain": "social media manager",
     "title": "Createur plannings editoriaux IA",
     "file": "prompt/Camille-social-media-manager/05_createur_plannings_editoriaux_IA.md",
     "excerpt": "🎯 **Mission :**",
@@ -210,26 +202,10 @@
   {
     "person": "Camille",
     "domain": "social media manager",
-    "title": "Detection doublons erreurs donnees client",
-    "file": "prompt/Camille-social-media-manager/17_detection_doublons_erreurs_donnees_client.md",
-    "excerpt": "🎯 **Contexte :**",
-    "content": "🎯 **Contexte :**  \r\nAgis comme un **Social Media Manager data quality** et réalise une **analyse de cohérence et de propreté des données client**.  \r\nTon rôle est d’assurer que les tableaux fournis ne contiennent ni doublons, ni erreurs.\r\n\r\n📘 **Objectif :**  \r\nFiabiliser la donnée avant reporting et repérer toute anomalie potentielle.\r\n\r\n🧱 **Structure :**\r\n1. **Résumé global**\r\n   - Taille de la base, période, source de données\r\n2. **Détection de doublons**\r\n   - Critères utilisés (titre, date, format, budget identique)\r\n3. **Erreurs de valeur**\r\n   - Ex : taux >100 %, CPC incohérent, valeur négative\r\n4. **Erreurs de format**\r\n   - Devise, dates, capitalisation, colonnes inversées\r\n5. **Actions correctives**\r\n   - Nettoyage, normalisation, suppression, fusion\r\n6. **Indice de fiabilité**\r\n   - Score global de qualité (sur 10)\r\n7. **Recommandation IA**\r\n   - Suggestion de formule Sheets ou automatisation de vérification\r\n8. **Synthèse finale**\r\n   - 3 lignes de résumé exécutif\r\n\r\n🧠 **Style :**\r\n- Ton méthodique et rigoureux.  \r\n- Format prêt à copier dans un audit Notion ou Data Studio.  \r\n- Utilise des emojis : 🧹 (nettoyage), 🧮 (contrôle), ✅ (corrigé).\r\n"
-  },
-  {
-    "person": "Camille",
-    "domain": "social media manager",
     "title": "Generateur compte rendu reunion client",
     "file": "prompt/Camille-social-media-manager/01_generateur_compte_rendu_reunion_client.md",
     "excerpt": "🎯 **Contexte et rôle :**",
     "content": "🎯 **Contexte et rôle :**  \r\nAgis comme un **Social Media Manager senior** chargé de produire un **compte rendu professionnel de réunion client** à partir d’un texte brut, d’un enregistrement ou de notes.  \r\nTon rôle consiste à restituer fidèlement les échanges tout en hiérarchisant les informations pour produire un document clair, concis et orienté action.\r\n\r\n📘 **Objectif du livrable :**  \r\nCréer un compte rendu de réunion **structuré, intelligible et exploitable** immédiatement pour le client, l’équipe et la direction interne.\r\n\r\n🧱 **Structure attendue :**\r\n1. **En-tête du compte rendu**\r\n   - Nom du client  \r\n   - Date / heure / participants  \r\n   - Type de réunion (bilan, stratégie, suivi, validation, etc.)\r\n2. **Résumé exécutif** (5 à 7 lignes maximum)\r\n   - Synthèse des points essentiels et décisions clés\r\n3. **Objectifs de la réunion**\r\n   - Rappel du but de la session et des enjeux principaux\r\n4. **Points discutés**\r\n   - Détaille chaque sujet abordé avec sous-titres clairs\r\n   - Ajoute des bullets pour chaque échange significatif\r\n5. **Décisions prises**\r\n   - Liste précise, datée, validée\r\n6. **Actions à mener**\r\n   - Action | Responsable | Échéance | Statut\r\n7. **Commentaires & remarques client**\r\n   - Ton, perception, attentes ou signaux relationnels\r\n8. **Prochaines étapes**\r\n   - Tâches à venir et prochaines réunions prévues\r\n9. **Bloc final \"Synthèse managériale\"**\r\n   - 3 lignes qui résument les enjeux globaux et les next steps\r\n\r\n🧠 **Recommandations IA supplémentaires :**\r\n- Utilise un ton **professionnel, positif et orienté solution**.  \r\n- Aère la mise en page (titres, listes, emojis légers : ✅, 💬, 📅).  \r\n- Termine par un **résumé pour direction** (exécutif, lisible en 1 min).  \r\n- Ne te contente pas de reformuler : **structure, interprète et hiérarchise**.\r\n"
-  },
-  {
-    "person": "Camille",
-    "domain": "social media manager",
-    "title": "Generateur email suivi client proactif",
-    "file": "prompt/Camille-social-media-manager/09_generateur_email_suivi_client_proactif.md",
-    "excerpt": "🎯 **Mission :**",
-    "content": "🎯 **Mission :**  \r\nAgis comme un **Social Media Manager orienté relation client** et rédige un **email de suivi proactif** professionnel.  \r\nTon objectif est de maintenir la relation, démontrer la valeur ajoutée, et susciter la confiance du client.\r\n\r\n📘 **Objectif :**  \r\nCréer un message structuré, personnalisé et orienté action, pouvant être envoyé après un reporting, une réunion ou un succès de campagne.\r\n\r\n🧱 **Structure :**\r\n1. **Objet d’email**\r\n   - Formule engageante et claire (ex : “Suivi des actions + nouvelles opportunités 🚀”)\r\n2. **Introduction personnalisée**\r\n   - Ton amical et professionnel\r\n3. **Rappel des faits marquants**\r\n   - 2-3 résultats clés ou réussites récentes\r\n4. **Proposition proactive**\r\n   - Suggestion d’amélioration, idée de test, ou proposition de point\r\n5. **CTA (appel à action)**\r\n   - “Souhaitez-vous qu’on planifie un point de 15 min ?”\r\n6. **Clôture**\r\n   - Remerciement et projection sur la suite\r\n7. **Signature professionnelle**\r\n   - Nom, fonction, contact\r\n\r\n🧠 **Options IA :**\r\n- Génère 2 versions de ton : “formel corporate” et “amical consultatif”.  \r\n- Ajoute un résumé automatique des KPIs clés à inclure dans l’email.  \r\n- Le texte doit tenir en moins de 250 mots, fluide et chaleureux.\r\n"
   },
   {
     "person": "Camille",
